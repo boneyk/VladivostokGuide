@@ -1,0 +1,126 @@
+.route-points {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.route-points__row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: var(--vl-surface);
+    border: 1px solid var(--vl-border);
+    color: inherit;
+    text-decoration: none;
+}
+
+.route-points__row--link {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.route-points__row--link:hover,
+.route-points__row--link:focus-visible {
+    transform: translateX(2px);
+    border-color: var(--vl-accent-soft);
+    box-shadow: var(--vl-shadow-sm);
+}
+
+/* Синий кружок с номером — тот же порядок, что и у меток на карте. */
+.route-points__marker {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--vl-accent);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 650;
+}
+
+.route-points__text {
+    flex: 1;
+    min-width: 0;
+}
+
+.route-points__title {
+    margin: 0;
+    font-weight: 620;
+    color: var(--vl-text);
+}
+
+.route-points__note {
+    margin: 2px 0 0;
+    color: var(--vl-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+/* Кнопка-подсказка «Подробнее»: появляется только у точек со своей страницей. */
+.route-points__more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: var(--vl-accent-bg);
+    color: var(--vl-accent);
+    font-size: 0.84rem;
+    font-weight: 550;
+    white-space: nowrap;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.route-points__more .anticon {
+    font-size: 0.72em;
+    transition: transform 0.2s ease;
+}
+
+.route-points__row--link:hover .route-points__more {
+    background: var(--vl-accent);
+    color: #fff;
+}
+
+.route-points__row--link:hover .route-points__more .anticon {
+    transform: translateX(3px);
+}
+
+/* На телефоне подпись «Подробнее» прячем, оставляем стрелку-кружок. */
+@media (max-width: 600px) {
+    .route-points__row {
+        padding: 12px 14px;
+        gap: 10px;
+    }
+
+    .route-points__more {
+        gap: 0;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        justify-content: center;
+        font-size: 0;
+    }
+
+    .route-points__more .anticon {
+        font-size: 0.72rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .route-points__row--link,
+    .route-points__more,
+    .route-points__more .anticon {
+        transition: none;
+    }
+
+    .route-points__row--link:hover {
+        transform: none;
+    }
+}

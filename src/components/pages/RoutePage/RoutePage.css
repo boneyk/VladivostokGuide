@@ -1,0 +1,39 @@
+.route-page {
+    padding: clamp(20px, 3vw, 36px);
+    border-radius: var(--vl-radius-lg);
+    background: var(--vl-surface);
+    border: 1px solid var(--vl-border);
+    box-shadow: var(--vl-shadow-sm);
+}
+
+.route-page__points,
+.route-page__facts {
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: var(--vl-radius);
+    background: var(--vl-surface-muted);
+    border: 1px solid var(--vl-border);
+}
+
+.route-page__points .section-heading,
+.route-page__facts .section-heading {
+    margin-bottom: 4px;
+}
+
+.route-page__points {
+    margin-bottom: 20px;
+}
+
+.route-page__facts a {
+    color: var(--vl-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+
+    .route-page__points,
+    .route-page__facts {
+        padding: 16px;
+    }
+}

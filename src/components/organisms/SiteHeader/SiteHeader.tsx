@@ -12,6 +12,7 @@ type NavItem =
 
 const NAV_ITEMS: NavItem[] = [
   { kind: 'route', to: '/', label: 'Все места' },
+  { kind: 'section', id: 'routes', label: 'Маршруты по городу' },
   ...categories.map(
     (category): NavItem => ({ kind: 'section', id: category.id, label: category.title }),
   ),

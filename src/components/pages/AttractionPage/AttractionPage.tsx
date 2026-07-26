@@ -4,11 +4,13 @@ import PageLayout from '../../templates/PageLayout/PageLayout';
 import BackLink from '../../atoms/BackLink/BackLink';
 import SectionHeading from '../../atoms/SectionHeading/SectionHeading';
 import QuickFacts from '../../molecules/QuickFacts/QuickFacts';
+import RouteMentions from '../../molecules/RouteMentions/RouteMentions';
 import AttractionHero from '../../organisms/AttractionHero/AttractionHero';
 import ContentSection from '../../organisms/ContentSection/ContentSection';
 import RelatedPlaces from '../../organisms/RelatedPlaces/RelatedPlaces';
 import NotFoundPage from '../NotFoundPage/NotFoundPage';
 import { attractionsByCategory, findAttraction } from '../../../data/attractions';
+import { routesWithAttraction } from '../../../data/routes';
 import './AttractionPage.css';
 
 /** Страница одной достопримечательности. */
@@ -37,6 +39,8 @@ export function AttractionPage() {
 
       <article className="attraction-page">
         <AttractionHero item={attraction} />
+
+        <RouteMentions routes={routesWithAttraction(attraction.slug)} />
 
         {attraction.quickFacts && attraction.quickFacts.length > 0 && (
           <section className="attraction-page__facts">

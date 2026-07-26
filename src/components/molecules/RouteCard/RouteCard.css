@@ -1,0 +1,142 @@
+.route-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 12px 12px 20px;
+    border-radius: var(--vl-radius);
+    background: var(--vl-surface);
+    border: 1px solid var(--vl-border);
+    box-shadow: var(--vl-shadow-sm);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.route-card:hover,
+.route-card:focus-visible {
+    transform: translateY(-4px);
+    border-color: var(--vl-accent-soft);
+    box-shadow: var(--vl-shadow-md);
+}
+
+.route-card--planned {
+    background: var(--vl-surface-muted);
+    border-style: dashed;
+}
+
+.route-card__map {
+    position: relative;
+}
+
+/* Счётчик точек поверх карты. */
+.route-card__count {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--vl-border);
+    box-shadow: var(--vl-shadow-sm);
+    color: var(--vl-accent-strong);
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.route-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    padding: 16px 8px 0;
+}
+
+.route-card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.route-card__emoji {
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+.route-card__title {
+    margin: 0;
+    font-size: 1.12rem;
+    font-weight: 640;
+    letter-spacing: -0.01em;
+    color: var(--vl-text);
+}
+
+.route-card__summary {
+    margin: 0;
+    color: var(--vl-text-muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+/* Цепочка точек: две строки максимум, дальше многоточие. */
+.route-card__chain {
+    margin: 0;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--vl-accent-strong);
+    font-size: 0.84rem;
+    line-height: 1.5;
+}
+
+.route-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.route-card__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    color: var(--vl-accent);
+    font-size: 0.88rem;
+    font-weight: 550;
+}
+
+.route-card__cta .anticon {
+    transition: transform 0.2s ease;
+}
+
+.route-card:hover .route-card__cta .anticon {
+    transform: translateX(3px);
+}
+
+@media (max-width: 600px) {
+    .route-card {
+        padding: 10px 10px 16px;
+    }
+
+    .route-card__body {
+        padding: 14px 6px 0;
+    }
+
+    .route-card__emoji {
+        font-size: 1.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .route-card,
+    .route-card__cta .anticon {
+        transition: none;
+    }
+
+    .route-card:hover {
+        transform: none;
+    }
+}

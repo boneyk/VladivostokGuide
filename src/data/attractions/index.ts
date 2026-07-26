@@ -5,6 +5,10 @@ import { okeanarium } from './okeanarium';
 import { mysTobizina } from './mys-tobizina';
 import { ostrovShkota } from './ostrov-shkota';
 import { zolotoyMost, russkiyMost } from './mosty';
+import { orlinoeGnezdo } from './orlinoe-gnezdo';
+import { pochtovayaSopka } from './pochtovaya-sopka';
+import { staryyDvorikGuma } from './staryy-dvorik-guma';
+import { morskoyVokzal } from './morskoy-vokzal';
 import { plannedAttractions } from './planned';
 
 export const attractions: Attraction[] = [
@@ -12,6 +16,10 @@ export const attractions: Attraction[] = [
   russkiyMost,
   okeanarium,
   kampusDvfu,
+  orlinoeGnezdo,
+  pochtovayaSopka,
+  staryyDvorikGuma,
+  morskoyVokzal,
   mayakTokarevskogo,
   mysTobizina,
   ostrovShkota,

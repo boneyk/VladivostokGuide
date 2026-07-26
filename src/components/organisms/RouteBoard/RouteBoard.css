@@ -1,0 +1,97 @@
+.route-board {
+    /* Отступ, чтобы sticky-шапка не перекрывала заголовок при прокрутке к разделу. */
+    scroll-margin-top: 84px;
+}
+
+.route-board__extra {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.route-board__count {
+    white-space: nowrap;
+}
+
+.route-board__nav {
+    display: flex;
+    gap: 6px;
+}
+
+.route-board__arrow {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid var(--vl-border);
+    background: var(--vl-surface);
+    color: var(--vl-accent);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.route-board__arrow:hover:not(:disabled) {
+    border-color: var(--vl-accent-soft);
+    background: var(--vl-accent-bg);
+}
+
+.route-board__arrow:disabled {
+    color: var(--vl-text-muted);
+    opacity: 0.45;
+    cursor: default;
+}
+
+/*
+ * Ряд карточек: по три в ряд, дальше горизонтальная прокрутка с примагничиванием.
+ * grid-auto-columns задаёт ширину карточки, поэтому «сколько в ряд» меняется
+ * одной строкой в медиазапросе.
+ */
+.route-board__track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 40px) / 3);
+    gap: 20px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    /* Место для тени и подъёма карточки на hover; по бокам — 0, иначе сбивается примагничивание. */
+    padding: 6px 0 12px;
+    scrollbar-width: none;
+}
+
+.route-board__track::-webkit-scrollbar {
+    display: none;
+}
+
+.route-board__slide {
+    scroll-snap-align: start;
+    min-width: 0;
+}
+
+@media (max-width: 1100px) {
+    .route-board__track {
+        grid-auto-columns: calc((100% - 20px) / 2);
+    }
+}
+
+/* Телефон: одна карточка на экран, край следующей подсказывает, что можно листать. */
+@media (max-width: 700px) {
+    .route-board__track {
+        grid-auto-columns: 88%;
+        gap: 14px;
+    }
+
+    /* На телефоне ряд листается свайпом — стрелки только занимали бы место. */
+    .route-board__nav {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .route-board__arrow {
+        transition: none;
+    }
+}
