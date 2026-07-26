@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Оригиналы фото из Notion-экспорта: в сайте используются сжатые копии
+# из src/assets/photos, эта папка нужна только как резерв.
+notion-original-images/
+
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
