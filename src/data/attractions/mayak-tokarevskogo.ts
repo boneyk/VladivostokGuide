@@ -3,7 +3,7 @@ import type { Attraction } from '../types';
 export const mayakTokarevskogo: Attraction = {
   slug: 'mayak-tokarevskogo',
   title: 'Маяк Токаревского',
-  category: 'city',
+  category: 'sea',
   status: 'ready',
   emoji: '🗼',
   summary:

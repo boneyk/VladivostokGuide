@@ -25,11 +25,12 @@ export const plannedAttractions: Attraction[] = [
   {
     slug: 'ahlestysheva',
     title: 'Бухта Ахлестышева',
-    category: 'islands',
+    category: 'nature',
     status: 'planned',
     emoji: '🏝️',
     summary: 'Бухта на восточном берегу острова Русский с пологим входом в воду.',
     tags: ['Остров Русский', 'В планах'],
+    links: [{ label: 'Место на Яндекс.Картах', url: 'https://yandex.ru/maps/?text=Бухта Ахлестышева Владивосток' }],
     sections: draftSection(
       'Бухта Ахлестышева находится на острове Русский и известна протяжённым пляжем и спокойной водой — популярное место для купания у местных.',
     ),
@@ -37,11 +38,12 @@ export const plannedAttractions: Attraction[] = [
   {
     slug: 'livadiya',
     title: 'Ливадия',
-    category: 'beaches',
+    category: 'leisure',
     status: 'planned',
     emoji: '🏖️',
     summary: 'Курортный посёлок под Находкой — база для пляжного дня за городом.',
     tags: ['Выезд за город', 'В планах'],
+    links: [{ label: 'Место на Яндекс.Картах', url: 'https://yandex.ru/maps/?text=Ливадия Приморский край' }],
     sections: draftSection(
       'Ливадия — посёлок в заливе Восток примерно в двух часах езды от Владивостока. Сюда едут за пляжным днём и чистой водой, обычно с ночёвкой.',
     ),
@@ -49,11 +51,12 @@ export const plannedAttractions: Attraction[] = [
   {
     slug: 'botanicheskiy-sad',
     title: 'Ботанический сад',
-    category: 'tours',
+    category: 'science',
     status: 'planned',
     emoji: '🌿',
     summary: 'Кусок уссурийской тайги в черте города с экотропой.',
     tags: ['2–3 часа', 'В планах'],
+    links: [{ label: 'Место на Яндекс.Картах', url: 'https://yandex.ru/maps/?text=Ботанический сад Владивосток' }],
     sections: draftSection(
       'Ботанический сад-институт ДВО РАН — участок настоящего уссурийского леса внутри города с оборудованной экологической тропой и оранжереей.',
     ),
@@ -61,12 +64,15 @@ export const plannedAttractions: Attraction[] = [
   {
     slug: 'sup-vl',
     title: 'Sup-Vl: сап-прогулки',
-    category: 'tours',
+    category: 'leisure',
     status: 'planned',
     emoji: '🛶',
     summary: 'Прогулки на сап-бордах по бухтам — вид на город с воды.',
     tags: ['Активность', 'В планах'],
-    links: [{ label: 'Sup-Vl на 2ГИС', url: 'https://2gis.ru/vladivostok/geo/70000001089728600' }],
+    links: [
+      { label: 'Место на Яндекс.Картах', url: 'https://yandex.ru/maps/?text=Sup-Vl Владивосток' },
+      { label: 'Sup-Vl на 2ГИС', url: 'https://2gis.ru/vladivostok/geo/70000001089728600' },
+    ],
     sections: draftSection(
       'Аренда сап-бордов и групповые прогулки по бухтам Владивостока. Самый простой способ увидеть город и мосты с воды.',
     ),
@@ -74,11 +80,12 @@ export const plannedAttractions: Attraction[] = [
   {
     slug: 'forty-na-russkom',
     title: 'Форты на Русском',
-    category: 'tours',
+    category: 'history',
     status: 'planned',
     emoji: '🏰',
     summary: 'Укрепления Владивостокской крепости: казематы, потерны и орудийные дворики.',
     tags: ['Полдня', 'Нужен фонарик', 'В планах'],
+    links: [{ label: 'Место на Яндекс.Картах', url: 'https://yandex.ru/maps/?text=Форты Русский остров Владивосток' }],
     sections: draftSection(
       'Форты и береговые батареи Владивостокской крепости на острове Русский — бетонные казематы, подземные потерны и орудийные дворики начала XX века.',
     ),

@@ -12,11 +12,14 @@ type NavItem =
 
 const NAV_ITEMS: NavItem[] = [
   { kind: 'route', to: '/', label: 'Все места' },
-  { kind: 'section', id: 'routes', label: 'Маршруты по городу' },
+  { kind: 'section', id: 'routes', label: 'Маршруты' },
   ...categories.map(
-    (category): NavItem => ({ kind: 'section', id: category.id, label: category.title }),
+    (category): NavItem => ({
+      kind: 'section',
+      id: category.id,
+      label: category.navLabel ?? category.title,
+    }),
   ),
-  { kind: 'route', to: '/checklist', label: 'Чек-лист' },
 ];
 
 /** Шапка сайта: на широких экранах — строка ссылок, на телефоне — бургер и Drawer. */

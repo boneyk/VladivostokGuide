@@ -3,7 +3,7 @@ import type { Attraction } from '../types';
 export const orlinoeGnezdo: Attraction = {
   slug: 'orlinoe-gnezdo',
   title: 'Видовая площадка на сопке Орлиное Гнездо',
-  category: 'city',
+  category: 'viewpoints',
   status: 'ready',
   emoji: '🦅',
   summary:

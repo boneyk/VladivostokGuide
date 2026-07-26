@@ -3,7 +3,7 @@ import type { Attraction } from '../types';
 export const pochtovayaSopka: Attraction = {
   slug: 'pochtovaya-sopka',
   title: 'Почтовая сопка',
-  category: 'city',
+  category: 'viewpoints',
   status: 'ready',
   emoji: '⛰️',
   summary:

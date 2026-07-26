@@ -3,12 +3,18 @@ import type { Attraction } from '../types';
 export const staryyDvorikGuma: Attraction = {
   slug: 'staryy-dvorik-guma',
   title: '«Старый дворик ГУМа»',
-  category: 'city',
+  category: 'history',
   status: 'ready',
   emoji: '🎭',
   summary:
     'Внутренний двор Большого ГУМа, стилизованный под Владивосток начала XX века: вывески, скульптуры горожан и кафе.',
   tags: ['30–40 минут', 'Бесплатно', 'В центре'],
+  links: [
+    {
+      label: 'Место на Яндекс.Картах',
+      url: 'https://yandex.ru/maps/?text=Старый дворик ГУМа Владивосток',
+    },
+  ],
   quickFacts: [
     { icon: '📍', label: 'Где', value: 'Ул. Светланская, 33 — вход через арку с улицы.' },
     { icon: '⏱️', label: 'На посещение', value: '**30–40 минут** без остановки в кафе.' },

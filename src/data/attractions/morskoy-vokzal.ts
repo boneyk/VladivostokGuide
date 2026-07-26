@@ -3,12 +3,18 @@ import type { Attraction } from '../types';
 export const morskoyVokzal: Attraction = {
   slug: 'morskoy-vokzal',
   title: 'Морской вокзал',
-  category: 'city',
+  category: 'sea',
   status: 'ready',
   emoji: '⚓',
   summary:
     'Монументальное здание 1964 года у самой воды: советский модернизм, набережная и вид на причалы бухты.',
   tags: ['30 минут', 'Бесплатно', 'У воды'],
+  links: [
+    {
+      label: 'Место на Яндекс.Картах',
+      url: 'https://yandex.ru/maps/?text=Морской вокзал Владивосток',
+    },
+  ],
   quickFacts: [
     { icon: '📍', label: 'Где', value: 'Ул. Нижнепортовая, 1 — на берегу бухты Золотой Рог.' },
     { icon: '🏛️', label: 'Статус', value: 'Памятник архитектуры **регионального значения**.' },

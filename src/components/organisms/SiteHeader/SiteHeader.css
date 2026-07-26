@@ -22,7 +22,9 @@
     gap: 12px;
     color: inherit;
     margin-right: auto;
-    min-width: 0;
+    /* Бренд не сжимаем: иначе заголовок вылезает из своей области и на него
+       наползают пункты навигации. */
+    flex-shrink: 0;
 }
 
 .site-header__mark {
@@ -60,6 +62,16 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    /* Разделов стало много: даём ряду сжиматься и прокручиваться внутри себя,
+       чтобы он не выпирал за пределы шапки и не ломал вёрстку. */
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.site-header__nav::-webkit-scrollbar {
+    display: none;
 }
 
 /* Часть пунктов — кнопки (прокрутка к разделу), поэтому нужен сброс стилей button. */
@@ -114,8 +126,8 @@
     border-radius: 12px;
 }
 
-/* Ниже 900px строка ссылок не помещается — переключаемся на бургер. */
-@media (max-width: 900px) {
+/* Ниже 1024px длинный ряд разделов уже неудобен — переключаемся на бургер. */
+@media (max-width: 1024px) {
     .site-header__nav {
         display: none;
     }

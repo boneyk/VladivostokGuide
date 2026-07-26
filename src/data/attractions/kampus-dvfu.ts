@@ -3,7 +3,7 @@ import type { Attraction } from '../types';
 export const kampusDvfu: Attraction = {
   slug: 'kampus-dvfu',
   title: 'Кампус ДВФУ',
-  category: 'city',
+  category: 'science',
   status: 'ready',
   emoji: '🏛️',
   summary:

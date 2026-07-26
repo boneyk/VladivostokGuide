@@ -6,11 +6,13 @@
  * достаточно создать файл в `src/data/attractions` и не трогать компоненты.
  */
 
-export type CategoryId = 'city' | 'islands' | 'beaches' | 'tours';
+export type CategoryId = 'viewpoints' | 'sea' | 'history' | 'science' | 'nature' | 'leisure';
 
 export type Category = {
   id: CategoryId;
   title: string;
+  /** Короткая подпись для шапки/навигации. Если не задана — берётся `title`. */
+  navLabel?: string;
   icon: string;
   description: string;
 };

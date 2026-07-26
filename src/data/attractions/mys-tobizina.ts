@@ -4,7 +4,7 @@ import cover from '../../assets/photos/mys-tobizina/cover.jpg';
 export const mysTobizina: Attraction = {
   slug: 'mys-tobizina',
   title: 'Мыс Тобизина',
-  category: 'islands',
+  category: 'nature',
   status: 'ready',
   emoji: '🪨',
   summary:

@@ -5,7 +5,7 @@ import dolphinarium from '../../assets/photos/okeanarium/dolphinarium.jpg';
 export const okeanarium: Attraction = {
   slug: 'okeanarium',
   title: 'Приморский океанариум',
-  category: 'city',
+  category: 'science',
   status: 'ready',
   emoji: '🐬',
   summary:

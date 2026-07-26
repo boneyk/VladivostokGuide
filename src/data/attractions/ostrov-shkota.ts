@@ -14,7 +14,7 @@ import img10 from '../../assets/photos/ostrov-shkota/10.jpg';
 export const ostrovShkota: Attraction = {
   slug: 'ostrov-shkota',
   title: 'Остров Шкота',
-  category: 'islands',
+  category: 'nature',
   status: 'ready',
   emoji: '⛵',
   summary:
