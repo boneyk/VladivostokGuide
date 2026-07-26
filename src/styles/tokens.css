@@ -1,0 +1,28 @@
+/* Дизайн-токены гида: морская палитра, скругления и тени. */
+:root {
+    --vl-bg: #f4f7fa;
+    --vl-surface: #ffffff;
+    --vl-surface-muted: #f2f6f9;
+
+    --vl-text: #152234;
+    --vl-text-soft: #33465e;
+    --vl-text-muted: #64748b;
+
+    --vl-border: #e2e8f0;
+
+    --vl-accent: #0f6f96;
+    --vl-accent-strong: #0b5674;
+    --vl-accent-soft: #a9d4e6;
+    --vl-accent-bg: #eaf4f9;
+
+    --vl-gradient: linear-gradient(90deg, #0f6f96 0%, #2fa4c4 50%, #5eead4 100%);
+
+    --vl-radius: 16px;
+    --vl-radius-lg: 22px;
+
+    --vl-shadow-sm: 0 1px 2px rgba(15, 34, 52, 0.04), 0 6px 16px rgba(15, 34, 52, 0.05);
+    --vl-shadow-md: 0 8px 24px rgba(15, 34, 52, 0.1);
+
+    --vl-page-width: 1240px;
+    --vl-page-gutter: clamp(16px, 4vw, 40px);
+}

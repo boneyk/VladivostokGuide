@@ -1,0 +1,18 @@
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--vl-surface-muted);
+    border: 1px solid var(--vl-border);
+    color: var(--vl-text-muted);
+    font-size: 0.9rem;
+    transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.back-link:hover {
+    color: var(--vl-accent);
+    border-color: var(--vl-accent-soft);
+    background: var(--vl-accent-bg);
+}

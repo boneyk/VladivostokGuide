@@ -1,0 +1,38 @@
+.callout {
+    display: flex;
+    gap: 14px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: var(--vl-accent-bg);
+    border: 1px solid var(--vl-accent-soft);
+    border-left-width: 3px;
+}
+
+.callout__icon {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+}
+
+.callout__body {
+    min-width: 0;
+}
+
+.callout__title {
+    margin: 0 0 4px;
+    font-weight: 640;
+    color: var(--vl-text);
+}
+
+.callout__text {
+    margin: 0;
+    color: var(--vl-text-soft);
+    line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+    .callout {
+        padding: 14px;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.prose-list {
+    margin: 0;
+    padding-left: 22px;
+    display: grid;
+    gap: 10px;
+    color: var(--vl-text-soft);
+    line-height: 1.7;
+}
+
+.prose-list li::marker {
+    color: var(--vl-accent);
+}
+
+.prose-list--ordered li::marker {
+    font-weight: 650;
+}

@@ -1,0 +1,21 @@
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.page-layout__main {
+    width: 100%;
+    max-width: var(--vl-page-width);
+    margin: 0 auto;
+    padding: clamp(20px, 3vw, 40px) var(--vl-page-gutter) 56px;
+    display: grid;
+    gap: clamp(28px, 4vw, 48px);
+    align-content: start;
+}
+
+.page-layout__main--narrow {
+    max-width: 860px;
+    gap: clamp(20px, 3vw, 32px);
+}

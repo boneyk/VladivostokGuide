@@ -1,0 +1,137 @@
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--vl-border);
+}
+
+.site-header__inner {
+    max-width: var(--vl-page-width);
+    margin: 0 auto;
+    padding: 12px var(--vl-page-gutter);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-header__brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: inherit;
+    margin-right: auto;
+    min-width: 0;
+}
+
+.site-header__mark {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--vl-gradient);
+    font-size: 1.25rem;
+}
+
+.site-header__brand-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.site-header__title {
+    font-size: 1.02rem;
+    font-weight: 680;
+    letter-spacing: -0.01em;
+    color: var(--vl-text);
+    white-space: nowrap;
+}
+
+.site-header__subtitle {
+    font-size: 0.78rem;
+    color: var(--vl-text-muted);
+    white-space: nowrap;
+}
+
+.site-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Часть пунктов — кнопки (прокрутка к разделу), поэтому нужен сброс стилей button. */
+.site-header__link {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 999px;
+    background: none;
+    color: var(--vl-text-muted);
+    font: inherit;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.18s ease, background 0.18s ease;
+}
+
+.site-header__link:hover {
+    color: var(--vl-accent);
+    background: var(--vl-accent-bg);
+}
+
+.site-header__link--active {
+    color: var(--vl-accent-strong);
+    background: var(--vl-accent-bg);
+    font-weight: 550;
+}
+
+.site-header__burger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid var(--vl-border);
+    background: var(--vl-surface);
+    color: var(--vl-text);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.site-header__drawer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.site-header__drawer-nav .site-header__link {
+    padding: 11px 14px;
+    border-radius: 12px;
+}
+
+/* Ниже 900px строка ссылок не помещается — переключаемся на бургер. */
+@media (max-width: 900px) {
+    .site-header__nav {
+        display: none;
+    }
+
+    .site-header__burger {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 420px) {
+    .site-header__subtitle {
+        display: none;
+    }
+
+    .site-header__title {
+        font-size: 0.95rem;
+        white-space: normal;
+    }
+}

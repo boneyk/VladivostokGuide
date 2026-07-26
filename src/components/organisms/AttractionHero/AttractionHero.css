@@ -1,0 +1,79 @@
+.attraction-hero {
+    display: grid;
+    gap: 14px;
+    padding-bottom: 24px;
+}
+
+.attraction-hero__meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.attraction-hero__category {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--vl-accent-strong);
+    font-size: 0.86rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.attraction-hero__title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    color: var(--vl-text);
+}
+
+.attraction-hero__emoji {
+    font-size: 0.9em;
+    line-height: 1;
+}
+
+.attraction-hero__summary {
+    margin: 0;
+    max-width: 68ch;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.14rem);
+    line-height: 1.65;
+    color: var(--vl-text-muted);
+}
+
+.attraction-hero__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.attraction-hero__cover {
+    margin: 6px 0 0;
+    display: grid;
+    gap: 8px;
+}
+
+.attraction-hero__cover img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: var(--vl-radius);
+    border: 1px solid var(--vl-border);
+}
+
+.attraction-hero__cover figcaption {
+    color: var(--vl-text-muted);
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    .attraction-hero__cover img {
+        max-height: 260px;
+    }
+}

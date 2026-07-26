@@ -1,0 +1,44 @@
+.section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.section-heading__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    font-size: clamp(1.2rem, 1rem + 1vw, 1.6rem);
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    color: var(--vl-text);
+}
+
+.section-heading__icon {
+    font-size: 1.1em;
+    line-height: 1;
+}
+
+.section-heading__description {
+    margin: 6px 0 0;
+    color: var(--vl-text-muted);
+    font-size: 0.95rem;
+    max-width: 62ch;
+}
+
+.section-heading__extra {
+    flex-shrink: 0;
+    color: var(--vl-text-muted);
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
