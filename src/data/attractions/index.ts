@@ -19,8 +19,16 @@ import { naberezhnayaCesarevicha } from './naberezhnaya-cesarevicha';
 import { ploshchadBorcovRevolyucii } from './ploshchad-borcov-revolyucii';
 import { lyuteranskayaCerkov } from './lyuteranskaya-cerkov';
 import { muzeyArseneva } from './muzey-arseneva';
+import { kravcovskieVodopady } from './kravcovskie-vodopady';
+import { zemlyaLeoparda } from './zemlya-leoparda';
+import { poluostrovGamova } from './poluostrov-gamova';
 import { staryyDvorikGuma } from './staryy-dvorik-guma';
 import { morskoyVokzal } from './morskoy-vokzal';
+import { ahlestysheva } from './ahlestysheva';
+import { livadiya } from './livadiya';
+import { botanicheskiySad } from './botanicheskiy-sad';
+import { supVl } from './sup-vl';
+import { fortyNaRusskom } from './forty-na-russkom';
 import { zuma } from './zuma';
 import { hogo } from './hogo';
 import { neRydai } from './ne-rydai';
@@ -55,11 +63,19 @@ export const attractions: Attraction[] = [
   ploshchadBorcovRevolyucii,
   lyuteranskayaCerkov,
   muzeyArseneva,
+  kravcovskieVodopady,
+  zemlyaLeoparda,
+  poluostrovGamova,
   staryyDvorikGuma,
   morskoyVokzal,
   mayakTokarevskogo,
   mysTobizina,
   ostrovShkota,
+  ahlestysheva,
+  livadiya,
+  botanicheskiySad,
+  supVl,
+  fortyNaRusskom,
   zuma,
   hogo,
   neRydai,
