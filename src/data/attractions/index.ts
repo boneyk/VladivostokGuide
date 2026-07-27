@@ -22,6 +22,9 @@ import { muzeyArseneva } from './muzey-arseneva';
 import { staryyDvorikGuma } from './staryy-dvorik-guma';
 import { morskoyVokzal } from './morskoy-vokzal';
 import { zuma } from './zuma';
+import { hogo } from './hogo';
+import { neRydai } from './ne-rydai';
+import { prokofiy } from './prokofiy';
 import { plannedAttractions } from './planned';
 
 export const attractions: Attraction[] = [
@@ -49,6 +52,9 @@ export const attractions: Attraction[] = [
   mysTobizina,
   ostrovShkota,
   zuma,
+  hogo,
+  neRydai,
+  prokofiy,
   ...plannedAttractions,
 ];
 
