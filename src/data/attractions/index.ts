@@ -21,6 +21,7 @@ import { lyuteranskayaCerkov } from './lyuteranskaya-cerkov';
 import { muzeyArseneva } from './muzey-arseneva';
 import { staryyDvorikGuma } from './staryy-dvorik-guma';
 import { morskoyVokzal } from './morskoy-vokzal';
+import { zuma } from './zuma';
 import { plannedAttractions } from './planned';
 
 export const attractions: Attraction[] = [
@@ -47,6 +48,7 @@ export const attractions: Attraction[] = [
   mayakTokarevskogo,
   mysTobizina,
   ostrovShkota,
+  zuma,
   ...plannedAttractions,
 ];
 
