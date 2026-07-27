@@ -21,7 +21,7 @@ export const okeanarium: Attraction = {
       label: 'Океанариум на Яндекс.Картах',
       url: 'https://yandex.ru/profile/211680110089?lang=ru',
     },
-    { label: 'primocean.ru — билеты и расписание', url: 'https://primocean.ru' },
+    { label: 'Билеты и расписание — primocean.ru', url: 'https://primocean.ru/tickets/' },
   ],
   quickFacts: [
     {
@@ -48,6 +48,7 @@ export const okeanarium: Attraction = {
         'Есть базовый (все экспозиции) и с дельфинарием. Дети до 4 лет включительно — бесплатно. Онлайн-билеты быстрее очереди в кассу, особенно в сезон тайфунов и дождей.',
     },
     { icon: '⏱️', label: 'Тайминг', value: 'Полноценный осмотр без спешки — **2,5–3 часа**.' },
+    { icon: '📞', label: 'Контакты', value: 'Справочная: **+7 (423) 223-94-22** (primocean.ru).' },
   ],
   sections: [
     {

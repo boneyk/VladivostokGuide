@@ -62,6 +62,11 @@ export const podvodnayaLodkaS56: Attraction = {
       label: 'Еда',
       value: 'На самой набережной и в центре рядом — кафе и рестораны.',
     },
+    {
+      icon: '📞',
+      label: 'Контакты',
+      value: 'Музей ТОФ (справочная): **+7 (423) 221-64-92**.',
+    },
   ],
   sections: [
     {

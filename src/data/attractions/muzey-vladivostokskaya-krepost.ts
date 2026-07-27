@@ -15,6 +15,10 @@ export const muzeyVladivostokskayaKrepost: Attraction = {
       url: 'https://yandex.ru/maps/?text=Музей Владивостокская крепость Безымянная батарея',
     },
     {
+      label: 'Официальный сайт и билеты — fortressvl.ru',
+      url: 'https://fortressvl.ru/',
+    },
+    {
       label: 'Общественный музей «Владивостокская крепость» — Museum.ru',
       url: 'http://www.museum.ru/M2054',
     },
@@ -60,6 +64,11 @@ export const muzeyVladivostokskayaKrepost: Attraction = {
       icon: '🍕',
       label: 'Еда',
       value: 'Рядом Спортивная набережная с кафе и уличной едой.',
+    },
+    {
+      icon: '📞',
+      label: 'Контакты',
+      value: 'Справочная: **+7 (423) 240-08-96** (fortressvl.ru).',
     },
   ],
   sections: [

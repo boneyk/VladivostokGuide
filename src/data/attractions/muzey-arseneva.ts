@@ -15,6 +15,10 @@ export const muzeyArseneva: Attraction = {
       url: 'https://yandex.ru/maps/?text=Музей Арсеньева Владивосток Светланская 20',
     },
     {
+      label: 'Афиша и билеты — arseniev.org',
+      url: 'https://arseniev.org/events/',
+    },
+    {
       label: 'Музей истории Дальнего Востока имени В. К. Арсеньева — Википедия',
       url: 'https://ru.wikipedia.org/wiki/Музей_истории_Дальнего_Востока_имени_В._К._Арсеньева',
     },
@@ -55,6 +59,11 @@ export const muzeyArseneva: Attraction = {
       icon: '🍕',
       label: 'Еда',
       value: 'Кафе и рестораны — рядом, в центре.',
+    },
+    {
+      icon: '📞',
+      label: 'Контакты',
+      value: 'Справочная: **+7 (423) 241-11-73** (arseniev.org).',
     },
   ],
   sections: [
