@@ -11,6 +11,9 @@ import { nagornyyPark } from './nagornyy-park';
 import { pokrovskiyPark } from './pokrovskiy-park';
 import { novosiltsevskayaBatareya } from './novosiltsevskaya-batareya';
 import { mysZhitkova } from './mys-zhitkova';
+import { korabelnayaNaberezhnaya } from './korabelnaya-naberezhnaya';
+import { sportivnayaNaberezhnaya } from './sportivnaya-naberezhnaya';
+import { naberezhnayaCesarevicha } from './naberezhnaya-cesarevicha';
 import { staryyDvorikGuma } from './staryy-dvorik-guma';
 import { morskoyVokzal } from './morskoy-vokzal';
 import { plannedAttractions } from './planned';
@@ -26,6 +29,9 @@ export const attractions: Attraction[] = [
   pokrovskiyPark,
   novosiltsevskayaBatareya,
   mysZhitkova,
+  korabelnayaNaberezhnaya,
+  sportivnayaNaberezhnaya,
+  naberezhnayaCesarevicha,
   staryyDvorikGuma,
   morskoyVokzal,
   mayakTokarevskogo,
