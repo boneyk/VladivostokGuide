@@ -44,6 +44,14 @@ export const categories: Category[] = [
     icon: '🏖️',
     description: 'Куда ехать купаться, на закат и за впечатлениями на воде.',
   },
+  {
+    id: 'food',
+    title: 'Еда и гастрономия',
+    navLabel: 'Еда',
+    icon: '🦀',
+    description:
+      'Где поесть во Владивостоке: морепродукты и краб, паназия, кофейни и джаз-бары — от завтрака до позднего вечера.',
+  },
 ];
 
 export const categoryById = Object.fromEntries(

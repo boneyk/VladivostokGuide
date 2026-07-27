@@ -6,7 +6,7 @@
  * достаточно создать файл в `src/data/attractions` и не трогать компоненты.
  */
 
-export type CategoryId = 'viewpoints' | 'sea' | 'history' | 'science' | 'nature' | 'leisure';
+export type CategoryId = 'viewpoints' | 'sea' | 'history' | 'science' | 'nature' | 'leisure' | 'food';
 
 export type Category = {
   id: CategoryId;
