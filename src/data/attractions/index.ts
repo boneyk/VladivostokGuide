@@ -25,6 +25,15 @@ import { zuma } from './zuma';
 import { hogo } from './hogo';
 import { neRydai } from './ne-rydai';
 import { prokofiy } from './prokofiy';
+import { supra } from './supra';
+import { tokio } from './tokio';
+import { kaizen } from './kaizen';
+import { sinkopa } from './sinkopa';
+import { zhuklevich } from './zhuklevich';
+import { kontrabanda } from './kontrabanda';
+import { kolodecDrakona } from './kolodec-drakona';
+import { serpIMolot } from './serp-i-molot';
+import { edaITochka } from './eda-i-tochka';
 import { plannedAttractions } from './planned';
 
 export const attractions: Attraction[] = [
@@ -55,6 +64,15 @@ export const attractions: Attraction[] = [
   hogo,
   neRydai,
   prokofiy,
+  supra,
+  tokio,
+  kaizen,
+  sinkopa,
+  zhuklevich,
+  kontrabanda,
+  kolodecDrakona,
+  serpIMolot,
+  edaITochka,
   ...plannedAttractions,
 ];
 
