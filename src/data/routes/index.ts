@@ -2,9 +2,10 @@ import type { Route } from '../types';
 import { centrSopkiIMore } from './centr-sopki-i-more';
 import { russkiyOstrovMalyy } from './russkiy-ostrov-malyy';
 import { poNaberezhnym } from './po-naberezhnym';
+import { krasotyPrimorya } from './krasoty-primorya';
 
 /** Маршруты по городу — первый раздел главной. Порядок в массиве = порядок карточек. */
-export const routes: Route[] = [centrSopkiIMore, russkiyOstrovMalyy, poNaberezhnym];
+export const routes: Route[] = [centrSopkiIMore, russkiyOstrovMalyy, poNaberezhnym, krasotyPrimorya];
 
 export const findRoute = (slug?: string): Route | undefined =>
   routes.find((route) => route.slug === slug);
