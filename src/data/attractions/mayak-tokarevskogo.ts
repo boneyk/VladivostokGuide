@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/mayak-tokarevskogo/cover.jpg';
+import kosa from '../../assets/photos/mayak-tokarevskogo/kosa.jpg';
+import machta from '../../assets/photos/mayak-tokarevskogo/machta.jpg';
+import podhod from '../../assets/photos/mayak-tokarevskogo/podhod.jpg';
 
 export const mayakTokarevskogo: Attraction = {
   slug: 'mayak-tokarevskogo',
@@ -9,6 +13,11 @@ export const mayakTokarevskogo: Attraction = {
   summary:
     'Белая башня на конце рукотворной каменистой косы: дорога к маяку — половина впечатления.',
   tags: ['1–1,5 часа', 'Бесплатно', 'Зависит от прилива'],
+  cover: {
+    src: cover,
+    alt: 'Белая башня маяка Токаревского с красным куполом на скалистом основании в море',
+    caption: 'Классический вид на маяк. © Raita Futo / CC BY 2.0',
+  },
   links: [
     {
       label: 'Маяк на Яндекс.Картах',
@@ -158,6 +167,26 @@ export const mayakTokarevskogo: Attraction = {
       icon: '📸',
       title: 'Что стоит рассмотреть',
       blocks: [
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: kosa,
+              alt: 'Маяк Токаревского на конце каменистой косы под пасмурным небом',
+              caption: 'Маяк в конце Токаревской кошки. © Raita Futo / CC BY 2.0',
+            },
+            {
+              src: machta,
+              alt: 'Высокая мачта ЛЭП на косе посреди моря рядом с маяком',
+              caption: 'Та самая мачта ЛЭП посреди моря. © Artyom Svetlov / CC BY 4.0',
+            },
+            {
+              src: podhod,
+              alt: 'Начало пути к Токаревской кошке: шлагбаум, дорога и залив',
+              caption: 'Подход к косе со стороны берега. © Artyom Svetlov / CC BY 4.0',
+            },
+          ],
+        },
         {
           kind: 'paragraph',
           text: 'Лучшие впечатления здесь рождаются не только у самой башни. Обязательно оглянитесь назад примерно с середины косы: маяк оказывается визуальной точкой на конце длинной каменной линии, а за ним открывается широкий морской горизонт.',

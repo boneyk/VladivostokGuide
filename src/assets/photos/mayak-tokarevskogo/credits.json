@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokarevsky_Lighthouse_(21902267479).jpg"
+    },
+    {
+      "file": "kosa.jpg",
+      "author": "Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokarevsky_Lighthouse_(21466329494).jpg"
+    },
+    {
+      "file": "machta.jpg",
+      "author": "Artyom Svetlov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Cape_Tokeravskogo_2024-09_07.jpg"
+    },
+    {
+      "file": "podhod.jpg",
+      "author": "Artyom Svetlov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Cape_Tokeravskogo_2024-09_12.jpg"
+    }
+  ]
+}
