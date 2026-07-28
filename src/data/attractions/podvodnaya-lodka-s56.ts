@@ -1,4 +1,9 @@
 import type { Attraction } from '../types';
+import s56Cover from '../../assets/photos/podvodnaya-lodka-s56/cover.jpg';
+import s56OtsekUpravleniya from '../../assets/photos/podvodnaya-lodka-s56/otsek-upravleniya.jpg';
+import s56TorpednyyOtsek from '../../assets/photos/podvodnaya-lodka-s56/torpednyy-otsek.jpg';
+import s56Noch from '../../assets/photos/podvodnaya-lodka-s56/noch.jpg';
+import s56Vint from '../../assets/photos/podvodnaya-lodka-s56/vint.jpg';
 
 export const podvodnayaLodkaS56: Attraction = {
   slug: 'podvodnaya-lodka-s56',
@@ -9,6 +14,11 @@ export const podvodnayaLodkaS56: Attraction = {
   summary:
     'Гвардейская подлодка-музей на Корабельной набережной: можно пройти сквозь настоящие отсеки боевого корабля времён войны.',
   tags: ['30–40 минут', 'Музей', 'В центре'],
+  cover: {
+    src: s56Cover,
+    alt: 'Подводная лодка С-56 на постаменте у Корабельной набережной на фоне Русского моста',
+    caption: 'С-56 на Корабельной набережной. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -104,6 +114,31 @@ export const podvodnayaLodkaS56: Attraction = {
           icon: '🎖️',
           title: 'Ордена на рубке',
           text: 'С-56 — гвардейская и Краснознамённая, и это не для красоты: лодка действительно получила орден Красного Знамени за боевые заслуги. Обратите внимание на знаки на ограждении рубки.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: s56OtsekUpravleniya,
+              alt: 'Центральный пост подводной лодки С-56 с приборами, штурвалами и клапанами',
+              caption: 'Центральный пост с приборами и штурвалами. © Alexxx1979 / CC BY-SA 4.0',
+            },
+            {
+              src: s56TorpednyyOtsek,
+              alt: 'Торпедный отсек подводной лодки С-56 с торпедными аппаратами и подвесными койками',
+              caption: 'Торпедный отсек с койками экипажа. © Alexxx1979 / CC BY-SA 4.0',
+            },
+            {
+              src: s56Noch,
+              alt: 'Подводная лодка С-56 с вечерней подсветкой на фоне Русского моста',
+              caption: 'Вечерняя подсветка мемориала. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: s56Vint,
+              alt: 'Гребной винт и кормовые рули подводной лодки С-56 крупным планом',
+              caption: 'Гребной винт и кормовые рули. © Karamanskaya / CC0',
+            },
+          ],
         },
       ],
     },

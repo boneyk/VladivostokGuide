@@ -1,0 +1,40 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:S-56_Submarine_Monument_in_Vladivostok_(October_2024)-0.jpg"
+    },
+    {
+      "file": "otsek-upravleniya.jpg",
+      "author": "Alexxx1979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Submarine_S-56_Control_room_P8050520_2475.jpg"
+    },
+    {
+      "file": "torpednyy-otsek.jpg",
+      "author": "Alexxx1979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Submarine_S-56_Forward_torpedo_room_P8050522_2475.jpg"
+    },
+    {
+      "file": "noch.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:S-56_Submarine_Monument_in_Vladivostok_(October_2024)-0_3.jpg"
+    },
+    {
+      "file": "vint.jpg",
+      "author": "Karamanskaya",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Submarine_Monument_(Vladivostok)_06.jpg"
+    }
+  ]
+}
