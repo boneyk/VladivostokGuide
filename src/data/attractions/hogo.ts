@@ -1,4 +1,5 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/hogo/cover.jpg';
 
 export const hogo: Attraction = {
   slug: 'hogo',
@@ -9,6 +10,11 @@ export const hogo: Attraction = {
   summary:
     'Ресторан китайского самовара в центре: сами варите морепродукты и мясо в кипящем бульоне — аутентичный хот-пот.',
   tags: ['Паназия / Восток', 'Ужин-ресторан', 'Центр'],
+  cover: {
+    src: cover,
+    alt: 'Пешеходная улица Адмирала Фокина в центре Владивостока с фонтаном и историческими фасадами',
+    caption: 'Пешеходная улица Адмирала Фокина, где расположен ресторан «Hogo» (фото улицы, не самого заведения). © Alexxx1979 / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
