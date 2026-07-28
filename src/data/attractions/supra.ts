@@ -1,4 +1,5 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/supra/cover.jpg';
 
 export const supra: Attraction = {
   slug: 'supra',
@@ -9,6 +10,11 @@ export const supra: Attraction = {
   summary:
     'Грузинский ресторан на Спортивной набережной: хачапури и хинкали — с приморским твистом в виде краба и гребешка.',
   tags: ['Ужин-ресторан', 'Грузинская кухня', 'У набережной'],
+  cover: {
+    src: cover,
+    alt: 'Пешеходная улица Адмирала Фокина в центре Владивостока с фонтаном и историческими фасадами',
+    caption: 'Пешеходная улица Адмирала Фокина, где расположен ресторан «Супра» (фото улицы, не самого заведения). © Bogdanov-62 / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
