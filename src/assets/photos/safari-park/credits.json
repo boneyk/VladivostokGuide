@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "I am smiling",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amur_(tiger),_Primorsky_Safari_Park,_2025.jpg"
+    },
+    {
+      "file": "vhod.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-20-primorie-shkotovo-safari-park.jpg"
+    },
+    {
+      "file": "enot.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-20-primorie-shkotovo-safari-park-racoon.jpg"
+    },
+    {
+      "file": "olen.jpg",
+      "author": "KsenL",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cervus_nippon_in_Safari_Park_Shkotovo.jpg"
+    }
+  ]
+}
