@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Alexxx1979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Zolotoy_Rog_Bay_P8050527_2200.jpg"
+    },
+    {
+      "file": "panorama.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zolotoy_Bridge_(October_2024)-0_16.jpg"
+    },
+    {
+      "file": "sverhu.jpg",
+      "author": "Даниил Рыжков",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Золотой_мост,_июль_2013.jpg"
+    },
+    {
+      "file": "noch.jpg",
+      "author": "Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zolotoy_bridge,_Golden_Bridge_(22076779162).jpg"
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 import type { Attraction } from '../types';
-
-/**
- * Русский мост пока в черновике: в Notion-гиде для него была заведена пустая
- * страница. Здесь оставлен каркас, который останется дополнить текстом.
- */
+import zolotoyCover from '../../assets/photos/zolotoy-most/cover.jpg';
+import zolotoyPanorama from '../../assets/photos/zolotoy-most/panorama.jpg';
+import zolotoySverhu from '../../assets/photos/zolotoy-most/sverhu.jpg';
+import zolotoyNoch from '../../assets/photos/zolotoy-most/noch.jpg';
+import russkiyCover from '../../assets/photos/russkiy-most/cover.jpg';
+import russkiyVanty from '../../assets/photos/russkiy-most/vanty.jpg';
+import russkiyPilon from '../../assets/photos/russkiy-most/pilon.jpg';
+import russkiyOstrov from '../../assets/photos/russkiy-most/ostrov.jpg';
 
 export const zolotoyMost: Attraction = {
   slug: 'zolotoy-most',
@@ -14,6 +17,11 @@ export const zolotoyMost: Attraction = {
   summary:
     'Вантовый символ Владивостока над бухтой Золотой Рог: его ценность для туриста — в панораме с высоты, а не в прогулке по самому мосту.',
   tags: ['15 минут', 'Бесплатно', 'Смотровая'],
+  cover: {
+    src: zolotoyCover,
+    alt: 'Золотой мост с V-образными пилонами над бухтой Золотой Рог на закате',
+    caption: 'Золотой мост над бухтой Золотой Рог. © Alexxx1979 / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -77,6 +85,26 @@ export const zolotoyMost: Attraction = {
         {
           kind: 'paragraph',
           text: 'Главное, что бросается в глаза, — два огромных **V-образных пилона**, между которыми натянуты ванты. Они образуют характерный ритм диагональных линий, читаемый даже с большого расстояния. Длина моста — около **1388 метров**, высота пилонов — **226 метров**.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: zolotoyPanorama,
+              alt: 'Дневная панорама Золотого моста и бухты Золотой Рог с высоты',
+              caption: 'Панорама моста и бухты. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: zolotoySverhu,
+              alt: 'Золотой мост и центр города сверху в солнечный день',
+              caption: 'Вид на мост сверху. © Даниил Рыжков / CC BY-SA 3.0',
+            },
+            {
+              src: zolotoyNoch,
+              alt: 'Золотой мост с вечерней подсветкой над бухтой',
+              caption: 'Вечерняя подсветка моста. © Raita Futo / CC BY 2.0',
+            },
+          ],
         },
       ],
     },
@@ -153,6 +181,11 @@ export const russkiyMost: Attraction = {
   summary:
     'Мост-рекордсмен с самым длинным вантовым пролётом в мире — ворота на остров Русский через пролив Босфор Восточный.',
   tags: ['15–20 минут', 'Бесплатно', 'Ворота на остров'],
+  cover: {
+    src: russkiyCover,
+    alt: 'Русский мост через пролив Босфор Восточный в ясный день',
+    caption: 'Русский мост над проливом Босфор Восточный. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -232,6 +265,26 @@ export const russkiyMost: Attraction = {
           icon: '🏆',
           title: 'Рекорды',
           text: 'Русский мост — шестой по высоте мост в мире и держит мировое первенство по длине вантового пролёта. Это не просто переправа, а инженерный рекордсмен, который стоит рассматривать именно как сооружение.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: russkiyVanty,
+              alt: 'Вантовая система пилона Русского моста крупным планом на фоне неба',
+              caption: '«Арфа» из вант на пилоне. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: russkiyPilon,
+              alt: 'Основание пилона Русского моста с дорогой и виадуком снизу',
+              caption: 'У подножия пилона, где проходит дорога на остров. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: russkiyOstrov,
+              alt: 'Русский мост с видовой точки острова с парусной яхтой на воде',
+              caption: 'Вид на мост с острова Русского. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },
