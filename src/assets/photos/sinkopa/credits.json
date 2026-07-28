@@ -1,0 +1,21 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Tatiana Baloban",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Здание_гостиницы_\"Централь\",_ул._Светланская_11_г._Владивосток.JPG",
+      "note": "Историческое здание бывшей гостиницы «Централь» (ул. Светланская, 11) — в цоколе этого дома расположен джаз-бар «Синкопа»."
+    },
+    {
+      "file": "ulitsa.jpg",
+      "author": "Ultyash1981",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Гостиница_«Централь»_(Приморский_край,_Владивосток,_Светланская_улица,_11).JPG",
+      "note": "То же здание с уровня улицы, другой ракурс и сезон."
+    }
+  ]
+}

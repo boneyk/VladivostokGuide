@@ -1,4 +1,6 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/sinkopa/cover.jpg';
+import ulitsa from '../../assets/photos/sinkopa/ulitsa.jpg';
 
 export const sinkopa: Attraction = {
   slug: 'sinkopa',
@@ -9,6 +11,11 @@ export const sinkopa: Attraction = {
   summary:
     'Джаз-бар в цоколе на Светланской напротив музея Арсеньева: живая музыка со среды по субботу и авторская кухня.',
   tags: ['Бар / вечер с музыкой', 'Живой джаз', 'Центр'],
+  cover: {
+    src: cover,
+    alt: 'Историческое здание бывшей гостиницы «Централь» на Светланской улице с угловыми башенками',
+    caption: 'Здание бывшей гостиницы «Централь» (Светланская, 11) — в цоколе находится джаз-бар «Синкопа». © Tatiana Baloban / CC BY-SA 3.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -72,6 +79,20 @@ export const sinkopa: Attraction = {
       icon: '📸',
       title: 'Что стоит учесть',
       blocks: [
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: ulitsa,
+              alt: 'Здание бывшей гостиницы «Централь» на Светланской улице со стороны улицы',
+              caption: 'То же здание с уровня улицы. © Ultyash1981 / CC BY-SA 3.0',
+            },
+          ],
+        },
+        {
+          kind: 'paragraph',
+          text: 'Само здание, в цоколе которого работает бар, — бывшая гостиница «Централь», построенная в начале XX века и хорошо узнаваемая по угловым башенкам и красно-белому фасаду на пересечении со Светланской.',
+        },
         {
           kind: 'list',
           items: [
