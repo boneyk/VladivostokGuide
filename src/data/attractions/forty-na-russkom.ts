@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import fortyCover from '../../assets/photos/forty-na-russkom/cover.jpg';
+import fortyKazarma from '../../assets/photos/forty-na-russkom/kazarma.jpg';
+import fortyGalereya from '../../assets/photos/forty-na-russkom/galereya.jpg';
+import fortyUkrytie from '../../assets/photos/forty-na-russkom/ukrytie.jpg';
 
 export const fortyNaRusskom: Attraction = {
   slug: 'forty-na-russkom',
@@ -9,6 +13,11 @@ export const fortyNaRusskom: Attraction = {
   summary:
     'Самая мощная часть Владивостокской крепости: казематы, туннели и орудийные дворики фортов на острове Русский, с видами на мост и кампус.',
   tags: ['Полдня', 'Нужен фонарик', 'Крепость'],
+  cover: {
+    src: fortyCover,
+    alt: 'Земляной бруствер форта Поспелова с видом на кампус ДВФУ на острове Русский',
+    caption: 'Форт Поспелова, вид с бруствера на кампус ДВФУ. © Mad Sorcerer / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -76,6 +85,26 @@ export const fortyNaRusskom: Attraction = {
         {
           kind: 'paragraph',
           text: 'Осмотр форта — наполовину прогулка по истории, наполовину лёгкое приключение: вы проходите по залам и коридорам, спускаетесь в подземелья, выходите на брустверы. С высоты фортов открываются виды на остров, кампус ДВФУ и Русский мост — так военная история накладывается на современный облик Русского.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: fortyKazarma,
+              alt: 'Фасад казармы форта Поспелова с датой постройки 1903 и зарешёченными окнами',
+              caption: 'Казарма форта Поспелова, 1903 год постройки. © KoksGanjubasov / CC BY-SA 4.0',
+            },
+            {
+              src: fortyGalereya,
+              alt: 'Стрелковая галерея внутри форта Поспелова с рядом узких бойниц',
+              caption: 'Стрелковая галерея внутри форта. © KoksGanjubasov / CC BY-SA 4.0',
+            },
+            {
+              src: fortyUkrytie,
+              alt: 'Заросшее зеленью бетонное убежище форта Поспелова с металлической дверью',
+              caption: 'Одно из убежищ форта, заросшее зеленью. © AlinaChernenko / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },

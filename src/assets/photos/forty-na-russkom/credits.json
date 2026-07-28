@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Mad Sorcerer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Форт_Поспелова.jpg"
+    },
+    {
+      "file": "kazarma.jpg",
+      "author": "KoksGanjubasov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Форт_Поспелова._Казарма.jpg"
+    },
+    {
+      "file": "galereya.jpg",
+      "author": "KoksGanjubasov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Форт_Поспелова._Стрелковая_галерея_(внутри).jpg"
+    },
+    {
+      "file": "ukrytie.jpg",
+      "author": "AlinaChernenko",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Форт_Поспелова_1903г..jpg"
+    }
+  ]
+}
