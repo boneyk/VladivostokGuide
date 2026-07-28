@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/sportivnaya-naberezhnaya/cover.jpg';
+import marina from '../../assets/photos/sportivnaya-naberezhnaya/marina.jpg';
+import panorama from '../../assets/photos/sportivnaya-naberezhnaya/panorama.jpg';
 
 export const sportivnayaNaberezhnaya: Attraction = {
   slug: 'sportivnaya-naberezhnaya',
@@ -9,6 +12,11 @@ export const sportivnayaNaberezhnaya: Attraction = {
   summary:
     'Главная прогулочная набережная Амурского залива: песчаный пляж, парк аттракционов с колесом обозрения и закаты над водой.',
   tags: ['40–60 минут', 'Бесплатно', 'Отдых у моря'],
+  cover: {
+    src: cover,
+    alt: 'Вид сверху на Спортивную набережную, пляж и Амурский залив во Владивостоке',
+    caption: 'Спортивная набережная и Амурский залив. © Оксана Максимова / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -95,6 +103,21 @@ export const sportivnayaNaberezhnaya: Attraction = {
           icon: '🎡',
           title: 'Колесо обозрения и парк аттракционов',
           text: 'Классический курортный набор — карусели и колесо обозрения у самой воды. С высоты открывается вид на залив и набережную.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: marina,
+              alt: 'Яхтенная марина и причал у Спортивной набережной с видом на Амурский залив',
+              caption: 'Яхт-клуб и причал на набережной. © Оксана Максимова / CC BY-SA 4.0',
+            },
+            {
+              src: panorama,
+              alt: 'Панорама Спортивной гавани с пляжем и колесом обозрения вдали',
+              caption: 'Спортивная гавань с колесом обозрения. © Artyom Svetlov / CC BY 4.0',
+            },
+          ],
         },
       ],
     },
