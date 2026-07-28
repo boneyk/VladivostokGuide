@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/korabelnaya-naberezhnaya/cover.jpg';
+import krasnyVympel from '../../assets/photos/korabelnaya-naberezhnaya/krasny-vympel.jpg';
+import arka from '../../assets/photos/korabelnaya-naberezhnaya/arka.jpg';
 
 export const korabelnayaNaberezhnaya: Attraction = {
   slug: 'korabelnaya-naberezhnaya',
@@ -9,6 +12,11 @@ export const korabelnayaNaberezhnaya: Attraction = {
   summary:
     'Историческое «начало» Владивостока у Золотого Рога: место основания города, мемориал флота, корабли-музеи и Триумфальная арка.',
   tags: ['40–60 минут', 'Бесплатно', 'В центре'],
+  cover: {
+    src: cover,
+    alt: 'Подводная лодка С-56 на постаменте на Корабельной набережной во Владивостоке',
+    caption: 'Мемориальная подлодка С-56 на Корабельной набережной. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -95,6 +103,21 @@ export const korabelnayaNaberezhnaya: Attraction = {
           icon: '🏛️',
           title: 'Николаевские триумфальные ворота',
           text: 'Арку в русском стиле возвели в честь визита цесаревича Николая; в советское время её снесли, а в 2000-х восстановили — поэтому сегодня вы видите воссозданный, а не исходный памятник.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: krasnyVympel,
+              alt: 'Корабль-музей «Красный вымпел» у причала на Корабельной набережной',
+              caption: 'Корабль-музей «Красный вымпел». © Ondřej Žváček / CC BY 2.5',
+            },
+            {
+              src: arka,
+              alt: 'Николаевские триумфальные ворота (арка Цесаревича) среди зелени',
+              caption: 'Николаевские триумфальные ворота. © I13Robin / CC BY 4.0',
+            },
+          ],
         },
       ],
     },

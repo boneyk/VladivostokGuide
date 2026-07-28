@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:S-56_Submarine_Monument_in_Vladivostok_(October_2024)-0_2.jpg"
+    },
+    {
+      "file": "krasny-vympel.jpg",
+      "author": "Ondřej Žváček",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Krasnyj_vympel.jpg"
+    },
+    {
+      "file": "arka.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-18-vdk-gates-100747.jpg"
+    }
+  ]
+}
