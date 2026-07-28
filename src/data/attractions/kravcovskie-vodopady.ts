@@ -1,4 +1,6 @@
 import type { Attraction } from '../types';
+import vodopadyCover from '../../assets/photos/kravcovskie-vodopady/cover.jpg';
+import vodopadyPosleDozhdya from '../../assets/photos/kravcovskie-vodopady/posle-dozhdya.jpg';
 
 export const kravcovskieVodopady: Attraction = {
   slug: 'kravcovskie-vodopady',
@@ -9,6 +11,11 @@ export const kravcovskieVodopady: Attraction = {
   summary:
     'Самая доступная природа Приморья: каскад из пяти водопадов на лесной реке, соединённых удобной экотропой.',
   tags: ['Полдня', 'Экотропа', 'Хасанский район'],
+  cover: {
+    src: vodopadyCover,
+    alt: 'Один из Кравцовских водопадов на лесной реке среди замшелых камней',
+    caption: 'Один из водопадов Кравцовского каскада. © V_Kotelnikov / CC BY-SA 3.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -78,6 +85,16 @@ export const kravcovskieVodopady: Attraction = {
         {
           kind: 'paragraph',
           text: 'Прогулка идёт через лес от одного водопада к другому. Самый нижний, в сотне метров от дороги, называется **Малыш**; выше по течению — **Каменная чаша**; затем самый эффектный и высокий **Каменная пасть**, получивший имя за причудливое строение скал; замыкает каскад двухступенчатый **Ступенчатый**. Вода, замшелые камни и лес создают то самое ощущение «спрятанной» природы совсем рядом с трассой.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: vodopadyPosleDozhdya,
+              alt: 'Полноводный водопад на Кравцовском каскаде после дождя, мутная вода',
+              caption: 'Каскад после дождя — вода заметно полноводнее. © MarinkaYar / CC BY-SA 3.0',
+            },
+          ],
         },
       ],
     },

@@ -1,0 +1,19 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "V_Kotelnikov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Кравцовский_Водопад_Верхний.jpg"
+    },
+    {
+      "file": "posle-dozhdya.jpg",
+      "author": "MarinkaYar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Кравцовские_водопады.jpg"
+    }
+  ]
+}
