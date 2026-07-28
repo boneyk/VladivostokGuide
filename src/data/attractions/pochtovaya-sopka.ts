@@ -1,4 +1,6 @@
 import type { Attraction } from '../types';
+import pochtovayaCover from '../../assets/photos/pochtovaya-sopka/cover.jpg';
+import pochtovayaZima from '../../assets/photos/pochtovaya-sopka/zima.jpg';
 
 export const pochtovayaSopka: Attraction = {
   slug: 'pochtovaya-sopka',
@@ -9,6 +11,11 @@ export const pochtovayaSopka: Attraction = {
   summary:
     'Тихая «дикая» смотровая с историческим геодезическим знаком «Владею Востоком» и видом на Золотой Рог — камерный двойник Орлиного Гнезда.',
   tags: ['30–40 минут', 'Бесплатно', 'Смотровая'],
+  cover: {
+    src: pochtovayaCover,
+    alt: 'Панорама бухты Золотой Рог с одной из сопок над Эгершельдом',
+    caption: 'Бухта Золотой Рог с высоты городской сопки. © Андрей Коваль / CC BY 3.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -70,6 +77,16 @@ export const pochtovayaSopka: Attraction = {
         {
           kind: 'paragraph',
           text: 'На самой вершине стоит **геодезический знак** — каменный столб, ради которого во многом сюда и идут. Вокруг — открытое пространство и ощущение «дикой» видовой без инфраструктуры: то, чего уже не найти на облагороженном Орлином Гнезде.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: pochtovayaZima,
+              alt: 'Зимний вид на бухту Золотой Рог со снежной сопки в районе Эгершельда',
+              caption: 'Зимний вид на бухту с сопки над Эгершельдом. © Polyakov Evgeny / CC BY-SA 3.0',
+            },
+          ],
         },
       ],
     },
