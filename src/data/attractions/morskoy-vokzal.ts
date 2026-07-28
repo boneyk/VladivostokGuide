@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import vokzalCover from '../../assets/photos/morskoy-vokzal/cover.jpg';
+import vokzalKolonnada from '../../assets/photos/morskoy-vokzal/kolonnada.jpg';
+import vokzalMostIIrtysh from '../../assets/photos/morskoy-vokzal/most-i-irtysh.jpg';
+import vokzalParusnik from '../../assets/photos/morskoy-vokzal/parusnik.jpg';
 
 export const morskoyVokzal: Attraction = {
   slug: 'morskoy-vokzal',
@@ -9,6 +13,11 @@ export const morskoyVokzal: Attraction = {
   summary:
     'Здание 1960-х у Золотого Рога, где встречаются море и Транссиб: колоннада и стеклянный фасад — то, что осталось от советского модернизма.',
   tags: ['20–30 минут', 'Бесплатно', 'У воды'],
+  cover: {
+    src: vokzalCover,
+    alt: 'Фасад здания Морского вокзала во Владивостоке с вывеской и колоннадой',
+    caption: 'Морской вокзал со стороны площади. © I13Robin / CC BY 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -70,6 +79,26 @@ export const morskoyVokzal: Attraction = {
         {
           kind: 'paragraph',
           text: 'Внутри сегодня не только зал ожидания: вокзал давно превратился в **многофункциональный комплекс** с торговыми, деловыми и развлекательными зонами, а также туристско-информационным центром, где можно взять карты и советы по городу. Поэтому воспринимать его стоит двойственно — и как ворота морских путешествий, и как обычный городской центр у воды.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: vokzalKolonnada,
+              alt: 'Колоннада морского фасада Морского вокзала в дождливую погоду',
+              caption: 'Колоннада со стороны моря. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: vokzalMostIIrtysh,
+              alt: 'Вид со смотровой площадки Морского вокзала на Золотой мост и списанное судно «Иртыш»',
+              caption: 'Вид со смотровой площадки на Золотой мост. © I13Robin / CC BY 4.0',
+            },
+            {
+              src: vokzalParusnik,
+              alt: 'Парусник у причала Морского вокзала на фоне городских сопок и золотоглавой церкви',
+              caption: 'Парусник у причала, вид со смотровой. © I13Robin / CC BY 4.0',
+            },
+          ],
         },
       ],
     },

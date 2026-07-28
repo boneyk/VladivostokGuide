@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-15-vdk-marine-terminal.jpg"
+    },
+    {
+      "file": "kolonnada.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Commercial_Sea_Port_of_Vladivostok_(October_2024)-0.jpg"
+    },
+    {
+      "file": "most-i-irtysh.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-15-vdk-irtish-marine-terminal.jpg"
+    },
+    {
+      "file": "parusnik.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-17-vdk-marine-terminal-view.jpg"
+    }
+  ]
+}
