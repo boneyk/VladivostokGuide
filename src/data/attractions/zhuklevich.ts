@@ -1,4 +1,5 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/zhuklevich/cover.jpg';
 
 export const zhuklevich: Attraction = {
   slug: 'zhuklevich',
@@ -9,6 +10,11 @@ export const zhuklevich: Attraction = {
   summary:
     'Вечерний коктейль-бар в историческом доме купца на Светланской: авторские настойки, азиатская кухня и живая музыка.',
   tags: ['Бар / вечер с музыкой', 'С историей', 'Коктейли'],
+  cover: {
+    src: cover,
+    alt: 'Фасад доходного дома Жуклевича на Светланской улице — историческое здание начала XX века',
+    caption: 'Доходный дом Жуклевича (Светланская, 5/2), где сейчас находится бар «Жуклевичъ». © LoreMasterTes / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
