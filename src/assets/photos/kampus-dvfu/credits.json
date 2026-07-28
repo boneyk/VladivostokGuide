@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "DaBler",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Federal_University,_Vladivostok,_Russia.jpeg"
+    },
+    {
+      "file": "fasad.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Federal_University_(October_2024)-0_6.jpg"
+    },
+    {
+      "file": "alleya.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Federal_University_(October_2024)-0_2.jpg"
+    },
+    {
+      "file": "buhta.jpg",
+      "author": "Bogdanov-62",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Federal_University_3.JPG"
+    }
+  ]
+}

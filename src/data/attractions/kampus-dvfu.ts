@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import kampusCover from '../../assets/photos/kampus-dvfu/cover.jpg';
+import kampusFasad from '../../assets/photos/kampus-dvfu/fasad.jpg';
+import kampusAlleya from '../../assets/photos/kampus-dvfu/alleya.jpg';
+import kampusBuhta from '../../assets/photos/kampus-dvfu/buhta.jpg';
 
 export const kampusDvfu: Attraction = {
   slug: 'kampus-dvfu',
@@ -9,6 +13,11 @@ export const kampusDvfu: Attraction = {
   summary:
     'Университет на 132 гектарах у бухты Аякс: стекло, бетон и сопки, растворяющиеся в море.',
   tags: ['1,5–3 часа', 'Бесплатно', 'Остров Русский'],
+  cover: {
+    src: kampusCover,
+    alt: 'Здание Студенческого центра ДВФУ с парусообразной крышей',
+    caption: 'Студенческий центр кампуса ДВФУ. © DaBler / CC BY-SA 3.0',
+  },
   links: [
     {
       label: 'Кампус на Яндекс.Картах',
@@ -67,6 +76,26 @@ export const kampusDvfu: Attraction = {
           icon: '🏛️',
           title: 'Обратите внимание на Студенческий центр',
           text: 'Это одно из наиболее заметных зданий кампуса, связанное с историей саммита АТЭС. Внутри расположены общественные и университетские пространства, а сама архитектура хорошо передаёт масштаб всего комплекса.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: kampusFasad,
+              alt: 'Стеклянный фасад учебного корпуса ДВФУ с крупными буквами на входе',
+              caption: 'Фасад одного из учебных корпусов. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: kampusAlleya,
+              alt: 'Дорога через территорию кампуса ДВФУ в осенних тонах',
+              caption: 'Аллея кампуса осенью. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: kampusBuhta,
+              alt: 'Общежитие кампуса ДВФУ на фоне бухты Аякс и Русского моста вдали',
+              caption: 'Кампус на фоне бухты Аякс и Русского моста. © Bogdanov-62 / CC BY-SA 4.0',
+            },
+          ],
         },
         {
           kind: 'paragraph',
