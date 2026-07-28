@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Вадим Юшкевич",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Посёлок_Путятин.jpg"
+    },
+    {
+      "file": "arka.jpg",
+      "author": "Dimasigida12",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Арка_Слон_пьющий_воду_2.jpg"
+    },
+    {
+      "file": "grot.jpg",
+      "author": "Dimasigida12",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Грот_на_острове.jpg"
+    },
+    {
+      "file": "parom.jpg",
+      "author": "Dimasigida12",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Паром_на_остров_Путятин.jpg"
+    }
+  ]
+}
