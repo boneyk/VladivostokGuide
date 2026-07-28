@@ -1,4 +1,9 @@
 import type { Attraction } from '../types';
+import cerkovCover from '../../assets/photos/lyuteranskaya-cerkov/cover.jpg';
+import cerkovZima from '../../assets/photos/lyuteranskaya-cerkov/zima.jpg';
+import cerkovInterer from '../../assets/photos/lyuteranskaya-cerkov/interer.jpg';
+import cerkovRozetka from '../../assets/photos/lyuteranskaya-cerkov/rozetka.jpg';
+import cerkovShpil from '../../assets/photos/lyuteranskaya-cerkov/shpil.jpg';
 
 export const lyuteranskayaCerkov: Attraction = {
   slug: 'lyuteranskaya-cerkov',
@@ -9,6 +14,11 @@ export const lyuteranskayaCerkov: Attraction = {
   summary:
     'Самое старое церковное здание города: краснокирпичная неоготическая кирха с витражами и органными концертами в центре.',
   tags: ['20–30 минут', 'Архитектура', 'В центре'],
+  cover: {
+    src: cerkovCover,
+    alt: 'Краснокирпичная кирха с высокой готической башней и зелёной крышей летом',
+    caption: 'Лютеранская церковь Святого Павла на Пушкинской. © Borcholt / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -69,6 +79,31 @@ export const lyuteranskayaCerkov: Attraction = {
         {
           kind: 'paragraph',
           text: 'Внутри стоит обратить внимание на **витражи** в непривычном для Владивостока позднеготическом стиле и общий строгий, «европейский» характер зала. Кирха действующая, к тому же известна как концертная площадка — благодаря акустике здесь проходят органные и камерные вечера.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: cerkovZima,
+              alt: 'Кирха зимним ясным днём с деревянным забором на переднем плане',
+              caption: 'Кирха зимой. © Andshel / CC BY-SA 4.0',
+            },
+            {
+              src: cerkovInterer,
+              alt: 'Интерьер кирхи с алтарём и тремя круглыми окнами-розетками',
+              caption: 'Зал кирхи и алтарная часть с витражами-розетками. © Borcholt / CC BY-SA 4.0',
+            },
+            {
+              src: cerkovRozetka,
+              alt: 'Круглое окно-розетка с витражом крупным планом на кирпичном фасаде',
+              caption: 'Окно-розетка на фасаде. © F pkalac / CC BY-SA 3.0',
+            },
+            {
+              src: cerkovShpil,
+              alt: 'Вид снизу вверх на готический шпиль кирхи с крестом на фоне неба',
+              caption: 'Готический шпиль церкви. © Кабанкова Валерия / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },
