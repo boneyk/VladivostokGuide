@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "travelling_eidolon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20220816_View_of_the_Zolotoy_bridge_and_Russky_bridge_from_the_Eagle%27s_nest_hill.jpg"
+    },
+    {
+      "file": "gavan.jpg",
+      "author": "travelling_eidolon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20220816_City_view_from_the_Eagle%27s_nest_hill_-_52460648323.jpg"
+    },
+    {
+      "file": "kvartaly.jpg",
+      "author": "travelling_eidolon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20220816_City_view_from_the_Eagle%27s_nest_hill.jpg"
+    },
+    {
+      "file": "opora.jpg",
+      "author": "travelling_eidolon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20220816_City_view_from_the_Eagle%27s_nest_hill_-_52460381709.jpg"
+    }
+  ]
+}

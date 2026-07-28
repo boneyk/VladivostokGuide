@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import orlinoeCover from '../../assets/photos/orlinoe-gnezdo/cover.jpg';
+import orlinoeGavan from '../../assets/photos/orlinoe-gnezdo/gavan.jpg';
+import orlinoeKvartaly from '../../assets/photos/orlinoe-gnezdo/kvartaly.jpg';
+import orlinoeOpora from '../../assets/photos/orlinoe-gnezdo/opora.jpg';
 
 export const orlinoeGnezdo: Attraction = {
   slug: 'orlinoe-gnezdo',
@@ -9,6 +13,11 @@ export const orlinoeGnezdo: Attraction = {
   summary:
     'Самая известная смотровая города (~199 м): классическая панорама с двумя мостами и подъём на фуникулёре. Вершина сейчас на благоустройстве.',
   tags: ['30–40 минут', 'Смотровая', 'Фуникулёр'],
+  cover: {
+    src: orlinoeCover,
+    alt: 'Панорама Владивостока с сопки Орлиное Гнездо: Золотой и Русский мосты в одном кадре',
+    caption: 'Золотой и Русский мосты с видовой площадки. © travelling_eidolon / CC BY 2.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -80,6 +89,26 @@ export const orlinoeGnezdo: Attraction = {
         {
           kind: 'paragraph',
           text: 'Учтите, что сейчас вершина переживает большую перестройку: здесь обустраивают парк с дорожками, скамейками и озеленением, поэтому облик площадки меняется.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: orlinoeGavan,
+              alt: 'Вид с сопки Орлиное Гнездо на гавань, золотые купола собора и корабли в бухте',
+              caption: 'Гавань и золотые купола собора в утренней дымке. © travelling_eidolon / CC BY 2.0',
+            },
+            {
+              src: orlinoeKvartaly,
+              alt: 'Панорама городских кварталов Владивостока с сопками на заднем плане',
+              caption: 'Городские кварталы, спускающиеся по сопкам. © travelling_eidolon / CC BY 2.0',
+            },
+            {
+              src: orlinoeOpora,
+              alt: 'Вид на море и город с высоты, на переднем плане опора ЛЭП',
+              caption: 'Вид на город и Амурский залив. © travelling_eidolon / CC BY 2.0',
+            },
+          ],
         },
       ],
     },
