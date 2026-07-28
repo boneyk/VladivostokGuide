@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coastal_battery_Bezymyannaya_(October_2024)-0_7.jpg"
+    },
+    {
+      "file": "barbet.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coastal_battery_Bezymyannaya_(October_2024)-0_3.jpg"
+    },
+    {
+      "file": "zenitka.jpg",
+      "author": "Karamanskaya",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Military_hardware_at_Museum_of_Vladivostok_Fortress_01.jpg"
+    },
+    {
+      "file": "torpeda.jpg",
+      "author": "Karamanskaya",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Military_hardware_at_Museum_of_Vladivostok_Fortress_21.jpg"
+    }
+  ]
+}

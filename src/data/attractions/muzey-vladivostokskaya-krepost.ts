@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import krepostCover from '../../assets/photos/muzey-vladivostokskaya-krepost/cover.jpg';
+import krepostBarbet from '../../assets/photos/muzey-vladivostokskaya-krepost/barbet.jpg';
+import krepostZenitka from '../../assets/photos/muzey-vladivostokskaya-krepost/zenitka.jpg';
+import krepostTorpeda from '../../assets/photos/muzey-vladivostokskaya-krepost/torpeda.jpg';
 
 export const muzeyVladivostokskayaKrepost: Attraction = {
   slug: 'muzey-vladivostokskaya-krepost',
@@ -9,6 +13,11 @@ export const muzeyVladivostokskayaKrepost: Attraction = {
   summary:
     'Фортификационный музей под открытым небом на Безымянной батарее: барбеты над Амурским заливом и коллекция военной техники в центре города.',
   tags: ['1–1,5 часа', 'Музей', 'Крепость'],
+  cover: {
+    src: krepostCover,
+    alt: 'Орудийный дворик Безымянной батареи с военной техникой на фоне музейного здания',
+    caption: 'Безымянная батарея — двор музея «Владивостокская крепость». © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
