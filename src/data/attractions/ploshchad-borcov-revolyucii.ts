@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/ploshchad-borcov-revolyucii/cover.jpg';
+import monumentBlizko from '../../assets/photos/ploshchad-borcov-revolyucii/monument-blizko.jpg';
+import vecher from '../../assets/photos/ploshchad-borcov-revolyucii/vecher.jpg';
 
 export const ploshchadBorcovRevolyucii: Attraction = {
   slug: 'ploshchad-borcov-revolyucii',
@@ -9,6 +12,11 @@ export const ploshchadBorcovRevolyucii: Attraction = {
   summary:
     'Главная (Центральная) площадь Владивостока с 30-метровым монументом борцам за власть Советов — советский парадный центр города.',
   tags: ['20–30 минут', 'Бесплатно', 'В центре'],
+  cover: {
+    src: cover,
+    alt: 'Монумент «Борцам за власть Советов» и фонтаны на площади Борцов Революции во Владивостоке',
+    caption: 'Монумент «Борцам за власть Советов» и фонтаны на площади. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -89,6 +97,21 @@ export const ploshchadBorcovRevolyucii: Attraction = {
           icon: '🛍️',
           title: 'Ритм площади по дням',
           text: 'В будни площадь пустая и парадная, а по пятницам и субботам летом превращается в ярмарку. От того, когда вы придёте, сильно зависит впечатление.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: monumentBlizko,
+              alt: 'Монумент «Борцам за власть Советов» крупным планом с фигурой на колонне',
+              caption: 'Монумент «Борцам за власть Советов» крупным планом. © SAKRI / CC BY-SA 4.0',
+            },
+            {
+              src: vecher,
+              alt: 'Вечерний вид на площадь Борцов Революции с подсветкой и Спасо-Преображенским собором',
+              caption: 'Площадь вечером, на заднем плане — Спасо-Преображенский собор. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },

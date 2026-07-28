@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Revolution_Square_in_Vladivostok_(October_2024)-0.jpg"
+    },
+    {
+      "file": "vecher.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Revolution_Square_in_Vladivostok_(October_2024)-0_4.jpg"
+    },
+    {
+      "file": "monument-blizko.jpg",
+      "author": "SAKRI",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Памятник_борцам_за_власть_Советов_на_Дальнем_Востоке,_Владивосток,_Приморский_край,.jpg"
+    }
+  ]
+}
