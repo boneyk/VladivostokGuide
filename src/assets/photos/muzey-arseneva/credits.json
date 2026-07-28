@@ -1,0 +1,40 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Svetlanskaya_Street_20,_Vladivostok_(October_2024)-0.jpg"
+    },
+    {
+      "file": "karta.jpg",
+      "author": "I13Robin",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-15-vdk-museum-165724.jpg"
+    },
+    {
+      "file": "petukh.jpg",
+      "author": "I13Robin",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-15-vdk-museum-172333.jpg"
+    },
+    {
+      "file": "ikona.jpg",
+      "author": "I13Robin",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-15-vdk-museum-st-nikolas.jpg"
+    },
+    {
+      "file": "priroda.jpg",
+      "author": "Marc Heiden (User: Gorilla Jones, WT-shared)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tiger_and_bear,_Arsenev_Regional_History_Museum_(Vladivostok,_2004).jpg"
+    }
+  ]
+}

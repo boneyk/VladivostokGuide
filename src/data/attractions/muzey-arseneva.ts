@@ -1,4 +1,9 @@
 import type { Attraction } from '../types';
+import museumCover from '../../assets/photos/muzey-arseneva/cover.jpg';
+import museumKarta from '../../assets/photos/muzey-arseneva/karta.jpg';
+import museumPetukh from '../../assets/photos/muzey-arseneva/petukh.jpg';
+import museumIkona from '../../assets/photos/muzey-arseneva/ikona.jpg';
+import museumPriroda from '../../assets/photos/muzey-arseneva/priroda.jpg';
 
 export const muzeyArseneva: Attraction = {
   slug: 'muzey-arseneva',
@@ -9,6 +14,11 @@ export const muzeyArseneva: Attraction = {
   summary:
     'Старейший и главный краеведческий музей Приморья на Светланской: освоение Дальнего Востока, природа края и культура коренных народов.',
   tags: ['1,5–2 часа', 'Музей', 'В центре'],
+  cover: {
+    src: museumCover,
+    alt: 'Историческое здание музея на Светланской, 20 с угловым куполом и шпилем',
+    caption: 'Здание музея на Светланской, 20. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -79,6 +89,31 @@ export const muzeyArseneva: Attraction = {
         {
           kind: 'paragraph',
           text: 'Уже само здание задаёт настроение — это исторический особняк начала XX века на Светланской. Внутри стоит закладывать время не на беглый проход, а на вдумчивый осмотр: тематические разделы — от археологии Приморья и следов Бохайского царства до традиционной культуры коренных народов — складываются в цельный рассказ о том, как заселялся и изучался этот край.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: museumKarta,
+              alt: 'Историческая карта Российской империи в раме на стенде экспозиции',
+              caption: 'Историческая карта Российской империи в экспозиции. © I13Robin / CC0',
+            },
+            {
+              src: museumPetukh,
+              alt: 'Фигура золотистого петуха и восточный фарфор в музейной витрине',
+              caption: 'Экспонат декоративно-прикладного искусства. © I13Robin / CC0',
+            },
+            {
+              src: museumIkona,
+              alt: 'Оклад иконы святителя Николая с чеканкой в музейной витрине',
+              caption: 'Оклад иконы святителя Николая в собрании музея. © I13Robin / CC0',
+            },
+            {
+              src: museumPriroda,
+              alt: 'Чучела амурского тигра и медведя в диораме приморского леса',
+              caption: 'Диорама с амурским тигром и медведем в разделе о природе края. © Marc Heiden / CC BY-SA 3.0',
+            },
+          ],
         },
       ],
     },
