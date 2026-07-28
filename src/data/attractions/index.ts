@@ -29,6 +29,9 @@ import { livadiya } from './livadiya';
 import { botanicheskiySad } from './botanicheskiy-sad';
 import { supVl } from './sup-vl';
 import { fortyNaRusskom } from './forty-na-russkom';
+import { safariPark } from './safari-park';
+import { ostrovPutyatina } from './ostrov-putyatina';
+import { tropaOsminoga } from './tropa-osminoga';
 import { zuma } from './zuma';
 import { hogo } from './hogo';
 import { neRydai } from './ne-rydai';
@@ -76,6 +79,9 @@ export const attractions: Attraction[] = [
   botanicheskiySad,
   supVl,
   fortyNaRusskom,
+  safariPark,
+  ostrovPutyatina,
+  tropaOsminoga,
   zuma,
   hogo,
   neRydai,
