@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/naberezhnaya-cesarevicha/cover.jpg';
+import mostNoch from '../../assets/photos/naberezhnaya-cesarevicha/most-noch.jpg';
+import panorama from '../../assets/photos/naberezhnaya-cesarevicha/panorama.jpg';
 
 export const naberezhnayaCesarevicha: Attraction = {
   slug: 'naberezhnaya-cesarevicha',
@@ -9,6 +12,11 @@ export const naberezhnayaCesarevicha: Attraction = {
   summary:
     'Современная пешеходная набережная на месте бывшего Дальзавода с лучшим «нижним» видом на Золотой мост.',
   tags: ['30–40 минут', 'Бесплатно', 'Вид на мост'],
+  cover: {
+    src: cover,
+    alt: 'Замочки на перилах набережной Цесаревича на фоне завода «Дальзавод»',
+    caption: 'Набережная Цесаревича и «Дальзавод» на заднем плане. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -88,6 +96,21 @@ export const naberezhnayaCesarevicha: Attraction = {
           icon: '🏭',
           title: 'Соседство с действующим заводом',
           text: 'С одной стороны — благоустроенная набережная, с другой — работающий «Дальзавод». Этот контраст прогулочной зоны и судоремонтного производства хорошо передаёт характер портового города.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: mostNoch,
+              alt: 'Золотой мост с вечерней подсветкой, вид с набережной Цесаревича',
+              caption: 'Золотой мост с уровня воды в вечернее время. © Artyom Svetlov / CC BY 4.0',
+            },
+            {
+              src: panorama,
+              alt: 'Прогулочная зона набережной Цесаревича с арт-объектами и лестницей к воде',
+              caption: 'Прогулочная зона с арт-объектами на набережной. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },
