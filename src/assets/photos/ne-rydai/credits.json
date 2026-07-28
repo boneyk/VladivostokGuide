@@ -1,0 +1,27 @@
+{
+  "source": "Wikimedia Commons",
+  "note": "Здание гостиницы «Версаль» (Светланская, 10), в котором на 1-м этаже находится столовая «Не рыдай». Фото самого зала/еды столовой на Commons нет — это внешний вид исторического здания.",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Tatiana Baloban",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Гостиница_«Версаль»_г._Владивосток,_Светланская_улица,_10.JPG"
+    },
+    {
+      "file": "fasad-detal.jpg",
+      "author": "Tatiana Baloban",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Гостиница_«Версаль»,_ул._Светланская,_10,_г._Владивосток..JPG"
+    },
+    {
+      "file": "vecher.jpg",
+      "author": "Tatiana Baloban",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Гостиница_«Версаль»,_ул._Светланская,_10,_г._Владивосток.JPG"
+    }
+  ]
+}
