@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-19-vdk-old-yard-gum-2.jpg"
+    },
+    {
+      "file": "vhod.jpg",
+      "author": "I13Robin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-19-vdk-old-yard-gum-1.jpg"
+    },
+    {
+      "file": "istoricheskoe-zdanie.jpg",
+      "author": "CDR Alan Dooley",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GUM_Department_Store,_Vladivostok.JPEG"
+    }
+  ]
+}

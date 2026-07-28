@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import dvorikCover from '../../assets/photos/staryy-dvorik-guma/cover.jpg';
+import dvorikVhod from '../../assets/photos/staryy-dvorik-guma/vhod.jpg';
+import dvorikIstoricheskoeZdanie from '../../assets/photos/staryy-dvorik-guma/istoricheskoe-zdanie.jpg';
 
 export const staryyDvorikGuma: Attraction = {
   slug: 'staryy-dvorik-guma',
@@ -9,6 +12,11 @@ export const staryyDvorikGuma: Attraction = {
   summary:
     'Спрятанный за аркой на Светланской внутренний двор ГУМа, стилизованный под дореволюционный город: фигуры горожан, кафе и «карман тишины» в центре.',
   tags: ['30–40 минут', 'Бесплатно', 'В центре'],
+  cover: {
+    src: dvorikCover,
+    alt: 'Узкий проход старого дворика ГУМа с гирляндами лампочек между кирпичными фасадами',
+    caption: 'Атмосфера «Старого дворика ГУМа». © I13Robin / CC BY 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -69,6 +77,21 @@ export const staryyDvorikGuma: Attraction = {
         {
           kind: 'paragraph',
           text: 'Главная фишка — **скульптуры горожан начала XX века**, расставленные по двору: дама с собачкой в причудливой шляпке, мужчина, спешащий по делам с утренней газетой. Среди них есть и реальные персоны города. Вокруг — кафе, магазины, художественная студия и небольшие заведения; в тёплое время здесь проходят маркеты и мероприятия.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: dvorikVhod,
+              alt: 'Информационная схема-указатель «Старый дворик ГУМа» на входе во двор',
+              caption: 'Указатель у входа во дворик. © I13Robin / CC BY 4.0',
+            },
+            {
+              src: dvorikIstoricheskoeZdanie,
+              alt: 'Историческое здание торгового дома «Кунст и Альберс» с угловыми башенками',
+              caption: 'Здание торгового дома «Кунст и Альберс» — до превращения двора в арт-пространство. © CDR Alan Dooley / Public domain',
+            },
+          ],
         },
       ],
     },
