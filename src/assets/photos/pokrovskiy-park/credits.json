@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "A. C. Tatarinov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Владивосток,_Покровский_парк.jpg"
+    },
+    {
+      "file": "sobor.jpg",
+      "author": "Владимир Кобзарь",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Our_Lady%27s_Protection_(Vladivostok)_2.jpg"
+    },
+    {
+      "file": "krest.jpg",
+      "author": "A. C. Tatarinov",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Предполагаемый_участок_захоронения_Льва_Анатольевича_Пушкина.jpg"
+    }
+  ]
+}

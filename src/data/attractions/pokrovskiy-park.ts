@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import pokrovskiyCover from '../../assets/photos/pokrovskiy-park/cover.jpg';
+import pokrovskiySobor from '../../assets/photos/pokrovskiy-park/sobor.jpg';
+import pokrovskiyKrest from '../../assets/photos/pokrovskiy-park/krest.jpg';
 
 export const pokrovskiyPark: Attraction = {
   slug: 'pokrovskiy-park',
@@ -9,6 +12,11 @@ export const pokrovskiyPark: Attraction = {
   summary:
     'Тихий парк в центре с белым Покровским собором — зелёный храмовый квартал на месте бывшего городского кладбища.',
   tags: ['30–40 минут', 'Бесплатно', 'Парк и собор'],
+  cover: {
+    src: pokrovskiyCover,
+    alt: 'Аллея Покровского парка с лавочками и фонарями в центре Владивостока',
+    caption: 'Аллея Покровского парка. © A. C. Tatarinov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -76,6 +84,21 @@ export const pokrovskiyPark: Attraction = {
         {
           kind: 'paragraph',
           text: 'Композиционный центр — **Покровский кафедральный собор**: белое пятиглавое здание с золотыми куполами, которое видно почти от любого входа. Рядом — небольшая часовня Серафима Саровского и храм Иоанна Кронштадтского, появившиеся при возрождении прихода. Пространство одновременно работает как обычный городской парк и как церковная территория, поэтому атмосфера сдержаннее, чем в парке развлечений.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: pokrovskiySobor,
+              alt: 'Покровский кафедральный собор с золотыми и синими куполами во Владивостоке',
+              caption: 'Покровский кафедральный собор. © Владимир Кобзарь / CC BY-SA 3.0',
+            },
+            {
+              src: pokrovskiyKrest,
+              alt: 'Сохранившийся памятный крест на месте старого городского кладбища в парке',
+              caption: 'Памятный крест на месте бывшего кладбища. © A. C. Tatarinov / CC0',
+            },
+          ],
         },
       ],
     },
