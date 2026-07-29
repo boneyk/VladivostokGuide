@@ -1,4 +1,9 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/botanicheskiy-sad/cover.jpg';
+import vhod from '../../assets/photos/botanicheskiy-sad/vhod.jpg';
+import oranzhereya from '../../assets/photos/botanicheskiy-sad/oranzhereya.jpg';
+import kamni from '../../assets/photos/botanicheskiy-sad/kamni.jpg';
+import les from '../../assets/photos/botanicheskiy-sad/les.jpg';
 
 export const botanicheskiySad: Attraction = {
   slug: 'botanicheskiy-sad',
@@ -9,6 +14,11 @@ export const botanicheskiySad: Attraction = {
   summary:
     'Кусок настоящей уссурийской тайги в черте города: экотропы через заповедный лес и круглогодичная оранжерея.',
   tags: ['2–3 часа', 'Экотропы', 'Оранжерея'],
+  cover: {
+    src: cover,
+    alt: 'Цветущие деревья и клумбы тюльпанов на аллее Ботанического сада весной',
+    caption: 'Весеннее цветение в Ботаническом саду. © Krestov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -86,6 +96,21 @@ export const botanicheskiySad: Attraction = {
           kind: 'paragraph',
           text: 'Гуляя по тропам, вы проходите сквозь заповедные лесные массивы почти без следов вмешательства: высокие деревья, подлесок, характерная дальневосточная флора. Отдельная часть — **фондовая оранжерея** с тропическими и субтропическими растениями, которая работает круглый год и особенно выручает зимой, когда сад под снегом.',
         },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: vhod,
+              alt: 'Главный корпус Ботанического сада-института с вывеской и садовыми скульптурами у входа',
+              caption: 'Главный корпус института. © AlexanderShev / CC BY-SA 4.0',
+            },
+            {
+              src: les,
+              alt: 'Заповедный лес за главным корпусом Ботанического сада',
+              caption: 'Заповедный лес на территории сада. © AlexanderShev / CC BY-SA 4.0',
+            },
+          ],
+        },
       ],
     },
     {
@@ -104,6 +129,21 @@ export const botanicheskiySad: Attraction = {
           icon: '🌴',
           title: 'Оранжерея круглый год',
           text: 'Если приехали в холодный сезон, оранжерея — главный смысл визита: тропическая зелень посреди приморской зимы. Учтите санитарный понедельник.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: oranzhereya,
+              alt: 'Плоды цитрусовых на ветке в тропической оранжерее Ботанического сада',
+              caption: 'Цитрусовые в фондовой оранжерее. © Mikhail Alexandrov / CC0',
+            },
+            {
+              src: kamni,
+              alt: 'Декоративная каменная стена с круглым проёмом на экотропе среди леса',
+              caption: 'Каменная кладка на одной из экотроп сада. © AlexanderShev / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },

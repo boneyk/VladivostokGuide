@@ -1,0 +1,40 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Krestov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Krestov_wiki_01.jpg"
+    },
+    {
+      "file": "vhod.jpg",
+      "author": "AlexanderShev",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Botanical_Garden_general_house_2-ed_view.jpg"
+    },
+    {
+      "file": "oranzhereya.jpg",
+      "author": "Mikhail Alexandrov (alexandrovphoto)",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Botanical_Garden-Institute,_Vladivostok,_Russia_(Unsplash).jpg"
+    },
+    {
+      "file": "kamni.jpg",
+      "author": "AlexanderShev",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Botanical_Garden_stone_dam.jpg"
+    },
+    {
+      "file": "les.jpg",
+      "author": "AlexanderShev",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Far_Eastern_Botanical_Garden,_behind_general_house.jpg"
+    }
+  ]
+}
