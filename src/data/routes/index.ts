@@ -3,9 +3,16 @@ import { centrSopkiIMore } from './centr-sopki-i-more';
 import { russkiyOstrovMalyy } from './russkiy-ostrov-malyy';
 import { poNaberezhnym } from './po-naberezhnym';
 import { krasotyPrimorya } from './krasoty-primorya';
+import { naNahodku } from './na-nahodku';
 
 /** Маршруты по городу — первый раздел главной. Порядок в массиве = порядок карточек. */
-export const routes: Route[] = [centrSopkiIMore, russkiyOstrovMalyy, poNaberezhnym, krasotyPrimorya];
+export const routes: Route[] = [
+  centrSopkiIMore,
+  russkiyOstrovMalyy,
+  poNaberezhnym,
+  krasotyPrimorya,
+  naNahodku,
+];
 
 export const findRoute = (slug?: string): Route | undefined =>
   routes.find((route) => route.slug === slug);
