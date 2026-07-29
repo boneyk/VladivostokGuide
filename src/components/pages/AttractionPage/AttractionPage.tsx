@@ -9,7 +9,7 @@ import AttractionHero from '../../organisms/AttractionHero/AttractionHero';
 import ContentSection from '../../organisms/ContentSection/ContentSection';
 import RelatedPlaces from '../../organisms/RelatedPlaces/RelatedPlaces';
 import NotFoundPage from '../NotFoundPage/NotFoundPage';
-import { attractionsByCategory, findAttraction } from '../../../data/attractions';
+import { findAttraction, neighborAttractions } from '../../../data/attractions';
 import { routesWithAttraction } from '../../../data/routes';
 import './AttractionPage.css';
 
@@ -27,9 +27,7 @@ export function AttractionPage() {
     return <NotFoundPage message={`Место «${slug}» не найдено в гиде.`} />;
   }
 
-  const related = attractionsByCategory(attraction.category).filter(
-    (item) => item.slug !== attraction.slug,
-  );
+  const related = neighborAttractions(attraction);
 
   return (
     <PageLayout narrow>
@@ -54,7 +52,7 @@ export function AttractionPage() {
         ))}
       </article>
 
-      <RelatedPlaces items={related.slice(0, 3)} />
+      <RelatedPlaces items={related} />
     </PageLayout>
   );
 }

@@ -104,6 +104,25 @@ export const findAttraction = (slug?: string): Attraction | undefined =>
 export const attractionsByCategory = (categoryId: CategoryId): Attraction[] =>
   attractions.filter((attraction) => attraction.category === categoryId);
 
+/**
+ * Соседи места в пределах категории: одно предыдущее и два следующих (по кругу),
+ * чтобы можно было пройти все места раздела шаг за шагом.
+ */
+export const neighborAttractions = (attraction: Attraction): Attraction[] => {
+  const items = attractionsByCategory(attraction.category);
+  const index = items.findIndex((item) => item.slug === attraction.slug);
+  if (index === -1 || items.length <= 1) return [];
+
+  const at = (offset: number) => items[(index + offset + items.length) % items.length];
+  const seen = new Set([attraction.slug]);
+
+  return [at(-1), at(1), at(2)].filter((item) => {
+    if (seen.has(item.slug)) return false;
+    seen.add(item.slug);
+    return true;
+  });
+};
+
 /** Сколько мест уже описано подробно — показываем в шапке главной. */
 export const readyCount = attractions.filter(
   (attraction) => attraction.status === 'ready',
