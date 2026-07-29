@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import nagornyyCover from '../../assets/photos/nagornyy-park/cover.jpg';
+import nagornyyMost from '../../assets/photos/nagornyy-park/most.jpg';
+import nagornyyGrot from '../../assets/photos/nagornyy-park/grot.jpg';
+import nagornyyInstalyatsiya from '../../assets/photos/nagornyy-park/instalyatsiya.jpg';
 
 export const nagornyyPark: Attraction = {
   slug: 'nagornyy-park',
@@ -9,6 +13,11 @@ export const nagornyyPark: Attraction = {
   summary:
     'Благоустроенный склон Тюменской сопки с прудом, гротом и панорамой Золотого Рога — прогулка и смотровая в одном месте.',
   tags: ['1–1.5 часа', 'Бесплатно', 'Смотровая'],
+  cover: {
+    src: nagornyyCover,
+    alt: 'Панорама бухты Золотой Рог и Золотого моста с вершины Нагорного парка',
+    caption: 'Панорама Золотого Рога с видовой площадки парка. © Artyom Svetlov / CC BY 4.0',
+  },
   quickFacts: [
     {
       icon: '📍',
@@ -115,6 +124,26 @@ export const nagornyyPark: Attraction = {
         {
           kind: 'paragraph',
           text: 'Приберегите заряд камеры для вершины: панорама Золотого Рога с мостом — главный кадр этого места, особенно на закате. Внизу выигрышно смотрится пруд с естественными очертаниями и склон с местной растительностью. Из-за стройки третьей очереди отдельные ракурсы на вершине могут быть временно недоступны.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: nagornyyMost,
+              alt: 'Пешеходный мостик и дорожка среди деревьев в Нагорном парке',
+              caption: 'Прогулочная дорожка в нижней части парка. © Artyom Svetlov / CC BY 4.0',
+            },
+            {
+              src: nagornyyGrot,
+              alt: 'Искусственный грот из бетона на территории Нагорного парка',
+              caption: 'Искусственный грот на склоне парка. © Artyom Svetlov / CC BY 4.0',
+            },
+            {
+              src: nagornyyInstalyatsiya,
+              alt: 'Современная арт-инсталляция на видовой площадке Нагорного парка',
+              caption: 'Арт-объект на видовой площадке парка. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },

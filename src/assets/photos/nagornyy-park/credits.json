@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Artyom Svetlov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Nagorny_park_2024-09_032.jpg"
+    },
+    {
+      "file": "most.jpg",
+      "author": "Artyom Svetlov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Nagorny_park_2024-09_1725377177.webp"
+    },
+    {
+      "file": "grot.jpg",
+      "author": "Artyom Svetlov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vladivostok_Nagorny_park_2024-09_1725377416.webp"
+    },
+    {
+      "file": "instalyatsiya.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nagorny_Park_in_Vladivostok_(October_2024)_02.jpg"
+    }
+  ]
+}
