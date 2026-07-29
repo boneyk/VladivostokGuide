@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/livadiya/cover.jpg';
+import zalivVostok from '../../assets/photos/livadiya/zaliv-vostok.jpg';
+import rify from '../../assets/photos/livadiya/rify.jpg';
 
 export const livadiya: Attraction = {
   slug: 'livadiya',
@@ -9,6 +12,11 @@ export const livadiya: Attraction = {
   summary:
     'Курортный посёлок на заливе Восток под Находкой: несколько песчаных пляжей с тёплой водой — база для пляжного дня за городом.',
   tags: ['День / с ночёвкой', 'Пляж', 'За городом'],
+  cover: {
+    src: cover,
+    alt: 'Пустой песчаный пляж у Ливадии с зелёным мысом на горизонте',
+    caption: 'Песчаный пляж рядом с Ливадией. © pauk / CC BY-SA 3.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -75,6 +83,21 @@ export const livadiya: Attraction = {
         {
           kind: 'paragraph',
           text: 'Самый обустроенный — **Первый пляж**: он благоустроен, оборудован и лучше всего подходит для семейного отдыха. Соседние пляжи — попроще и потише. В отличие от каменистых бухт под самим Владивостоком, Ливадия ближе к классическому представлению о пляжном отдыхе.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: zalivVostok,
+              alt: 'Панорама залива Восток с галечным берегом, плавником и дальними сопками',
+              caption: 'Залив Восток, на берегу которого стоит Ливадия. © Tin-lau-lu / CC BY-SA 4.0',
+            },
+            {
+              src: rify,
+              alt: 'Скалистый риф в море у берега с чайками в вечернем свете',
+              caption: 'Прибрежные рифы неподалёку от Ливадии, залив Восток. © Oleg Krivolapov / CC BY-SA 3.0',
+            },
+          ],
         },
       ],
     },

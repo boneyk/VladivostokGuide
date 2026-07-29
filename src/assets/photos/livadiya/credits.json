@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "pauk",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beach_near_Livadia.jpg"
+    },
+    {
+      "file": "zaliv-vostok.jpg",
+      "author": "Tin-lau-lu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Вид_на_залив_Восток_с_северного_мыса_бухты_Лебединое_озеро.jpg"
+    },
+    {
+      "file": "rify.jpg",
+      "author": "Oleg Krivolapov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rifovy_cape_-_panoramio.jpg"
+    }
+  ]
+}
