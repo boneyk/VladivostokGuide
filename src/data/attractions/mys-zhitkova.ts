@@ -1,4 +1,7 @@
 import type { Attraction } from '../types';
+import zhitkovaCover from '../../assets/photos/mys-zhitkova/cover.jpg';
+import zhitkovaBereg from '../../assets/photos/mys-zhitkova/bereg.jpg';
+import zhitkovaSkulptura from '../../assets/photos/mys-zhitkova/skulptura.jpg';
 
 export const mysZhitkova: Attraction = {
   slug: 'mys-zhitkova',
@@ -9,6 +12,11 @@ export const mysZhitkova: Attraction = {
   summary:
     'Оконечность полуострова с океанариумом на острове Русский: морские виды на бухты Парис и Житкова и берег с триасовыми окаменелостями.',
   tags: ['30 минут', 'Бесплатно', 'У моря'],
+  cover: {
+    src: zhitkovaCover,
+    alt: 'Приморский океанариум с волнообразной крышей на полуострове (мысе) Житкова',
+    caption: 'Приморский океанариум на мысе Житкова. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -67,6 +75,21 @@ export const mysZhitkova: Attraction = {
         {
           kind: 'lead',
           text: 'Мыс Житкова — это оконечность полуострова, на котором построен Приморский океанариум. Для туриста он интересен прежде всего как выход к морю: отсюда открываются виды на бухты Парис и Житкова и водную гладь острова Русский. Место спокойное, без инфраструктуры развлечений, — хорошая точка, чтобы завершить прогулку по этой части острова у воды.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: zhitkovaBereg,
+              alt: 'Океанариум со стороны моря со скульптурой белого медведя на скале',
+              caption: 'Океанариум со стороны моря, у скалистого берега мыса. © A. C. Tatarinov / CC BY-SA 4.0',
+            },
+            {
+              src: zhitkovaSkulptura,
+              alt: 'Скульптура дюгоня на фоне стеклянного фасада океанариума',
+              caption: 'Скульптура у здания океанариума на мысе. © travelling_eidolon / CC BY 2.0',
+            },
+          ],
         },
       ],
     },

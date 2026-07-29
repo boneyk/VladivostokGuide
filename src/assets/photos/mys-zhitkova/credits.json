@@ -1,0 +1,26 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Primorskiy_Oceanarium_(October_2024)-0_6.jpg"
+    },
+    {
+      "file": "bereg.jpg",
+      "author": "A. C. Tatarinov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Главный_корпус_океанариума,_вид_сзади.jpg"
+    },
+    {
+      "file": "skulptura.jpg",
+      "author": "travelling_eidolon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20220813_Oceanarium_on_the_Russky_island.jpg"
+    }
+  ]
+}
