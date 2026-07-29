@@ -1,4 +1,6 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/ahlestysheva/cover.jpg';
+import ostrov from '../../assets/photos/ahlestysheva/ostrov.jpg';
 
 export const ahlestysheva: Attraction = {
   slug: 'ahlestysheva',
@@ -9,6 +11,11 @@ export const ahlestysheva: Attraction = {
   summary:
     'Самый популярный пляж острова Русский: закрытая бухта с песком, пологим входом и тёплой водой — можно купаться и с детьми.',
   tags: ['Пляжный день', 'Остров Русский', 'Купание'],
+  cover: {
+    src: cover,
+    alt: 'Бухта Ахлестышева на острове Русский с видом на одноимённый остров вдалеке',
+    caption: 'Бухта Ахлестышева, на дальнем плане — одноимённый остров. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -89,6 +96,16 @@ export const ahlestysheva: Attraction = {
           icon: '🏝️',
           title: 'Маленький остров у берега',
           text: 'Из бухты видно небольшой остров, до которого можно дойти пешком: со стороны пляжа ширина пролива всего около 70 метров, а глубина — примерно по колено. Популярное «мини-приключение» для отдыхающих (проверяйте уровень воды и будьте аккуратны).',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: ostrov,
+              alt: 'Небольшой зелёный остров Ахлестышева посреди пролива, вид сверху',
+              caption: 'Остров Ахлестышева — тот самый «мини-остров» напротив пляжа. © Романвер / CC BY-SA 3.0',
+            },
+          ],
         },
         {
           kind: 'callout',
