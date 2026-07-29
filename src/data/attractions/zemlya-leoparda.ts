@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/zemlya-leoparda/cover.jpg';
+import lesZima from '../../assets/photos/zemlya-leoparda/les-zima.jpg';
+import lesOsen from '../../assets/photos/zemlya-leoparda/les-osen.jpg';
+import leopard from '../../assets/photos/zemlya-leoparda/leopard.jpg';
 
 export const zemlyaLeoparda: Attraction = {
   slug: 'zemlya-leoparda',
@@ -9,6 +13,11 @@ export const zemlyaLeoparda: Attraction = {
   summary:
     'Заповедная территория ради спасения дальневосточного леопарда: экотропы через уссурийский лес и визит-центр в Барабаше.',
   tags: ['На день', 'Нацпарк', 'Хасанский район'],
+  cover: {
+    src: cover,
+    alt: 'Визит-центр национального парка «Земля леопарда» на фоне лесистых сопок',
+    caption: 'Визит-центр парка среди уссурийского леса. © Ванифатов Павел / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -77,6 +86,26 @@ export const zemlyaLeoparda: Attraction = {
         {
           kind: 'paragraph',
           text: 'Начинается всё с визит-центра в Барабаше: там регистрируются, выбирают маршрут и при желании берут экскурсию. Дальше — тропы разного характера: спокойные лесные прогулки, выходы к морю, экскурсии в оленепарк. Парк живёт по строгим правилам: сходить с троп нельзя, потому что это дом для редких животных.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: lesZima,
+              alt: 'Заснеженный уссурийский лес в заповеднике Кедровая падь, часть парка',
+              caption: 'Уссурийский лес Кедровой пади зимой — территория, вошедшая в парк. © Хабаровчанин / CC BY-SA 3.0',
+            },
+            {
+              src: lesOsen,
+              alt: 'Высокие хвойные деревья уссурийского леса осенью',
+              caption: 'Осенний лес на охраняемой территории парка. © Olga Ukhvatkina / CC BY-SA 4.0',
+            },
+            {
+              src: leopard,
+              alt: 'Дальневосточный леопард среди камней в заповеднике Кедровая падь',
+              caption: 'Дальневосточный леопард — редкий кадр из заповедника Кедровая падь (деталь, не гарантия встречи на маршруте). CC0',
+            },
+          ],
         },
       ],
     },

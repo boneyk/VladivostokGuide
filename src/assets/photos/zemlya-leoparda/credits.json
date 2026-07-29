@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Ванифатов Павел",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Национальный_парк_«Земля_леопарда»._Общий_вид.jpg"
+    },
+    {
+      "file": "les-zima.jpg",
+      "author": "Хабаровчанин",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Кедровая_падь.jpg"
+    },
+    {
+      "file": "les-osen.jpg",
+      "author": "Olga Ukhvatkina",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Пихта_цельнолистная_-_самое_высокое_дерево_-_46_м!.jpg"
+    },
+    {
+      "file": "leopard.jpg",
+      "author": "no rights reserved (CC0)",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amur_Leopard,_Kedrovaya_Pad_Nature_Reserve.jpg"
+    }
+  ]
+}
