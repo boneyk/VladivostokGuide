@@ -1,0 +1,33 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Novosiltsevskaya_battery_(October_2024)-0.jpg"
+    },
+    {
+      "file": "orudie.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Novosiltsevskaya_battery_(October_2024)-0_3.jpg"
+    },
+    {
+      "file": "dvorik.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Novosiltsevskaya_battery_(October_2024)-0_4.jpg"
+    },
+    {
+      "file": "proliv.jpg",
+      "author": "Vyacheslav Bukharov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Novosiltsevskaya_battery_(October_2024)-0_5.jpg"
+    }
+  ]
+}

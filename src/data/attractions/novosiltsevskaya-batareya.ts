@@ -1,4 +1,8 @@
 import type { Attraction } from '../types';
+import novosiltsevskayaCover from '../../assets/photos/novosiltsevskaya-batareya/cover.jpg';
+import novosiltsevskayaOrudie from '../../assets/photos/novosiltsevskaya-batareya/orudie.jpg';
+import novosiltsevskayaDvorik from '../../assets/photos/novosiltsevskaya-batareya/dvorik.jpg';
+import novosiltsevskayaProliv from '../../assets/photos/novosiltsevskaya-batareya/proliv.jpg';
 
 export const novosiltsevskayaBatareya: Attraction = {
   slug: 'novosiltsevskaya-batareya',
@@ -9,6 +13,11 @@ export const novosiltsevskayaBatareya: Attraction = {
   summary:
     'Береговая батарея Владивостокской крепости на острове Русский: восемь бетонных орудийных двориков с макетами пушек над проливом.',
   tags: ['40–60 минут', 'Бесплатно', 'Крепость'],
+  cover: {
+    src: novosiltsevskayaCover,
+    alt: 'Ряд орудийных двориков Новосильцевской батареи с видом на Русский мост',
+    caption: 'Орудийные дворики батареи и Русский мост на заднем плане. © Vyacheslav Bukharov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -77,6 +86,26 @@ export const novosiltsevskayaBatareya: Attraction = {
         {
           kind: 'paragraph',
           text: 'Сегодня в двориках стоят **макеты орудий**, установленные при реставрации, поэтому по ним легко представить, как батарея выглядела в строю. Между двориками тянется бетонный бруствер, а в глубине — семь траверсов с двухэтажными казематированными пороховыми погребами. Чуть в стороне сохранились каземат для прожектора и павильон дальномера с восстановленной грибовидной крышей. С высоты батареи открывается вид на пролив Босфор Восточный — тот самый, ради контроля над которым её и построили.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: novosiltsevskayaOrudie,
+              alt: 'Макет 152-мм орудия Кане в орудийном дворике на фоне Русского моста',
+              caption: 'Макет орудия в дворике батареи. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: novosiltsevskayaDvorik,
+              alt: 'Орудийный дворик батареи с Андреевским флагом на флагштоке',
+              caption: 'Один из орудийных двориков с флагом. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+            {
+              src: novosiltsevskayaProliv,
+              alt: 'Вид с батареи на пролив Босфор Восточный с проходящими судами',
+              caption: 'Вид с батареи на пролив Босфор Восточный. © Vyacheslav Bukharov / CC BY-SA 4.0',
+            },
+          ],
         },
       ],
     },
