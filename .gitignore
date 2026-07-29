@@ -2,6 +2,7 @@ node_modules/
 dist/
 dist-ssr/
 *.local
+graphify-out/
 
 # Оригиналы фото из Notion-экспорта: в сайте используются сжатые копии
 # из src/assets/photos, эта папка нужна только как резерв.
