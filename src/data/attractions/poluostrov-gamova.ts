@@ -1,4 +1,9 @@
 import type { Attraction } from '../types';
+import cover from '../../assets/photos/poluostrov-gamova/cover.jpg';
+import mayak from '../../assets/photos/poluostrov-gamova/mayak.jpg';
+import sosny from '../../assets/photos/poluostrov-gamova/sosny.jpg';
+import astafeva from '../../assets/photos/poluostrov-gamova/astafeva.jpg';
+import sverhu from '../../assets/photos/poluostrov-gamova/sverhu.jpg';
 
 export const poluostrovGamova: Attraction = {
   slug: 'poluostrov-gamova',
@@ -9,6 +14,11 @@ export const poluostrovGamova: Attraction = {
   summary:
     'Юг Приморья в самом «морском» виде: чистые бухты Витязь и Теляковского, скалистые мысы и старинный маяк Гамова.',
   tags: ['День / с ночёвкой', 'Море', 'Хасанский район'],
+  cover: {
+    src: cover,
+    alt: 'Бухта Теляковского с прозрачной водой, скалами и небольшими островами с высоты',
+    caption: 'Бухта Теляковского на полуострове Гамова. © A. C. Tatarinov / CC BY-SA 4.0',
+  },
   links: [
     {
       label: 'Место на Яндекс.Картах',
@@ -77,6 +87,26 @@ export const poluostrovGamova: Attraction = {
           kind: 'paragraph',
           text: 'Самые известные точки — бухта **Теляковского** с крошечным островом «Томящегося сердца» и реликтовыми соснами, растущими прямо на скалах, а также бухты Астафьева и Средняя. Вода здесь заметно чище и прозрачнее, чем в черте Владивостока, поэтому Витязь — одно из популярных мест для дайвинга: под водой богатая морская жизнь.',
         },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: sosny,
+              alt: 'Реликтовые сосны на скалистом острове в бухте Теляковского на закате',
+              caption: 'Реликтовые сосны бухты Теляковского. © Андрей Кровлин / CC BY-SA 4.0',
+            },
+            {
+              src: astafeva,
+              alt: 'Панорама бухты Астафьева со смотровой площадки бухты Теляковского на закате',
+              caption: 'Бухта Астафьева со смотровой площадки Теляковского. © RUSLEGIONER.LIVE / CC BY-SA 4.0',
+            },
+            {
+              src: sverhu,
+              alt: 'Вид на бухту Теляковского сверху с цветущим кустарником на переднем плане',
+              caption: 'Бухта Теляковского сверху. © Дмитрий Сигида / CC BY-SA 4.0',
+            },
+          ],
+        },
       ],
     },
     {
@@ -89,6 +119,16 @@ export const poluostrovGamova: Attraction = {
           icon: '🗼',
           title: 'Маяк Гамова',
           text: 'На мысе Гамова стоит один из старейших маяков Дальнего Востока — он работает с **1906 года**. Дорога к нему грунтовая и местами тяжёлая, но сам маяк и виды с мыса — цель, ради которой едут.',
+        },
+        {
+          kind: 'gallery',
+          images: [
+            {
+              src: mayak,
+              alt: 'Маяк Гамова 1906 года на скалистом мысу с высоты, вид на закате',
+              caption: 'Маяк на мысе Гамова, действует с 1906 года. © Trakhan Aleksandr / CC BY 4.0',
+            },
+          ],
         },
         {
           kind: 'callout',

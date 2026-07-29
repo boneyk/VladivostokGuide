@@ -1,0 +1,40 @@
+{
+  "source": "Wikimedia Commons",
+  "images": [
+    {
+      "file": "cover.jpg",
+      "author": "A. C. Tatarinov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Бухта_Теляковского.jpg"
+    },
+    {
+      "file": "mayak.jpg",
+      "author": "Trakhan Aleksandr",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gamov_Lighthouse_by_Aleksandr_Trakhan.jpg"
+    },
+    {
+      "file": "sosny.jpg",
+      "author": "Андрей Кровлин",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Мотивы_соснового_моря.jpg"
+    },
+    {
+      "file": "astafeva.jpg",
+      "author": "RUSLEGIONER.LIVE",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Бухта_Астафьева._Вид_со_смотровой_площадки_бухты_Теляковского.jpg"
+    },
+    {
+      "file": "sverhu.jpg",
+      "author": "Дмитрий Сигида",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Бухта_Теляковского_сверху.jpg"
+    }
+  ]
+}
