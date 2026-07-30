@@ -5,11 +5,18 @@
     border: 1px solid var(--vl-border);
 }
 
-.route-map iframe {
+.route-map iframe,
+.route-map img {
     display: block;
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* Статичное превью — картинка: заполняет контейнер целиком, без полей и растяжения. */
+.route-map img {
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Превью в карточке: карта декоративная, клики уходят ссылке карточки. */
@@ -18,7 +25,8 @@
     border-radius: 12px;
 }
 
-.route-map--card iframe {
+.route-map--card iframe,
+.route-map--card img {
     pointer-events: none;
 }
 
@@ -47,4 +55,12 @@
 
 .route-map--empty p {
     margin: 0;
+}
+
+/* На телефоне карточка во всю ширину: высота от пропорции, иначе карта сильно обрезается. */
+@media (max-width: 600px) {
+    .route-map--card {
+        height: auto;
+        aspect-ratio: 16 / 10;
+    }
 }

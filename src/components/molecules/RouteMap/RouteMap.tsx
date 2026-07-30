@@ -33,6 +33,8 @@ export function RouteMap({ route, variant = "card" }: Props) {
       >
         <img
           src={route.mapImgUrl}
+          alt={`Карта маршрута «${route.title}»`}
+          loading="lazy"
           title={`Карта маршрута «${route.title}»`}
           tabIndex={interactive ? undefined : -1}
         />
