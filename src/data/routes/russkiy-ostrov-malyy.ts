@@ -1,4 +1,5 @@
 import type { Route } from "../types";
+import routeMap from "../../assets/photos/okeanarium/route.png";
 
 export const russkiyOstrovMalyy: Route = {
   slug: "russkiy-ostrov-malyy",
@@ -10,7 +11,7 @@ export const russkiyOstrovMalyy: Route = {
   tags: ["Полдня", "Остров Русский", "Лучше на авто"],
   mapEmbedUrl:
     "https://yandex.ru/map-widget/v1/?um=constructor%3A08c7cff5664f649691bfe24284243cbe84cd7baabd10daa25daf94d5d054848f&source=constructor",
-  mapImgUrl: "src/assets/photos/okeanarium/route.png",
+  mapImgUrl: routeMap,
   points: [
     {
       title: "Новосильцевская батарея",

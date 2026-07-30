@@ -4,6 +4,7 @@ import { Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { categories } from "../../../data/categories";
 import { scrollToSection } from "../../../utils/scrollToSection";
+import logo from "../../../assets/photos/logo.png";
 import "./SiteHeader.css";
 
 type NavItem =
@@ -69,7 +70,7 @@ export function SiteHeader() {
       <div className="site-header__inner">
         <Link to="/" className="site-header__brand" onClick={closeDrawer}>
           <span className="site-header__mark" aria-hidden="true">
-            <img src="src/assets/photos/logo.png" alt="Логотип" />
+            <img src={logo} alt="Логотип" />
           </span>
           <span className="site-header__brand-text">
             <span className="site-header__title">Гид по Владивостоку</span>

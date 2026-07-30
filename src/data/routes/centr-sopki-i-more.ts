@@ -1,4 +1,5 @@
 import type { Route } from "../types";
+import routeMap from "../../assets/photos/sopki/route.png";
 
 export const centrSopkiIMore: Route = {
   slug: "centr-sopki-i-more",
@@ -10,7 +11,7 @@ export const centrSopkiIMore: Route = {
   tags: ["2–3 часа", "Пешком", "≈1 км", "Бесплатно"],
   mapEmbedUrl:
     "https://yandex.ru/map-widget/v1/?um=constructor%3Ad80cd3310686d9e06cc259af3f00176e1e89653220c14a1478338e6ac7bcf052&source=constructor",
-  mapImgUrl: "src/assets/photos/sopki/route.png",
+  mapImgUrl: routeMap,
   points: [
     {
       title: "Золотой мост",

@@ -128,6 +128,11 @@
 }
 
 @media (max-width: 600px) {
+    /* На телефоне — вертикальный кадр вместо широкого. */
+    .home-hero {
+        background-image: url("../../../assets/photos/phonecard.png");
+    }
+
     .home-hero__stat {
         flex: 1 1 calc(50% - 12px);
         min-width: 0;

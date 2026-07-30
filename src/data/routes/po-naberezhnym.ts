@@ -1,4 +1,5 @@
 import type { Route } from "../types";
+import routeMap from "../../assets/photos/sportivnaya-naberezhnaya/route.png";
 
 export const poNaberezhnym: Route = {
   slug: "po-naberezhnym",
@@ -10,7 +11,7 @@ export const poNaberezhnym: Route = {
   tags: ["2–3 часа", "Пешком", "Центр"],
   mapEmbedUrl:
     "https://yandex.ru/map-widget/v1/?um=constructor%3Ad25e6806de1733a95c3abad81cab49d9250edf0cf7de3a27ae47911642091076&source=constructor",
-  mapImgUrl: "src/assets/photos/sportivnaya-naberezhnaya/route.png",
+  mapImgUrl: routeMap,
   points: [
     {
       title: "Спортивная набережная",

@@ -1,4 +1,5 @@
 import type { Route } from "../types";
+import routeMap from "../../assets/photos/ostrov-putyatina/route.png";
 
 export const naNahodku: Route = {
   slug: "na-nahodku",
@@ -10,7 +11,7 @@ export const naNahodku: Route = {
   tags: ["1–2 дня", "На авто", "Юго-восток края"],
   mapEmbedUrl:
     "https://yandex.ru/map-widget/v1/?um=constructor%3Ac5794a81e5780efa2b2a9aadd860168f44d5963b3eb57d250ed2f530b4b82233&amp;source=constructor",
-  mapImgUrl: "src/assets/photos/ostrov-putyatina/route.png",
+  mapImgUrl: routeMap,
   points: [
     {
       title: "Приморский сафари-парк",

@@ -1,4 +1,5 @@
 import type { Route } from "../types";
+import routeMap from "../../assets/photos/zemlya-leoparda/route.png";
 
 export const krasotyPrimorya: Route = {
   slug: "krasoty-primorya",
@@ -10,7 +11,7 @@ export const krasotyPrimorya: Route = {
   tags: ["1–2 дня", "На авто", "Хасанский район"],
   mapEmbedUrl:
     "https://yandex.ru/map-widget/v1/?um=constructor%3Acc635e22215b06392450f13443f4793dba366d87725280e5be07266af36604ac&source=constructor",
-  mapImgUrl: "src/assets/photos/zemlya-leoparda/route.png",
+  mapImgUrl: routeMap,
   points: [
     {
       title: "Кравцовские водопады",
