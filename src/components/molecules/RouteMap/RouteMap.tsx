@@ -1,5 +1,5 @@
-import type { Route } from '../../../data/types';
-import './RouteMap.css';
+import type { Route } from "../../../data/types";
+import "./RouteMap.css";
 
 type Props = {
   route: Route;
@@ -7,15 +7,15 @@ type Props = {
    * `card` — превью в ячейке: карта не перехватывает клики, чтобы работала ссылка карточки.
    * `page` — карта на странице маршрута, с ней можно взаимодействовать.
    */
-  variant?: 'card' | 'page';
+  variant?: "card" | "page";
 };
 
 /**
  * Карта маршрута — виджет Яндекс.Карт из конструктора.
  * Грузится лениво: карточки за пределами экрана карту не запрашивают.
  */
-export function RouteMap({ route, variant = 'card' }: Props) {
-  const interactive = variant === 'page';
+export function RouteMap({ route, variant = "card" }: Props) {
+  const interactive = variant === "page";
 
   if (!route.mapEmbedUrl) {
     return (
@@ -25,11 +25,25 @@ export function RouteMap({ route, variant = 'card' }: Props) {
       </div>
     );
   }
+  if (!interactive) {
+    return (
+      <div
+        className={`route-map route-map--${variant}`}
+        aria-hidden={interactive ? undefined : "true"}
+      >
+        <img
+          src={route.mapImgUrl}
+          title={`Карта маршрута «${route.title}»`}
+          tabIndex={interactive ? undefined : -1}
+        />
+      </div>
+    );
+  }
 
   return (
     <div
       className={`route-map route-map--${variant}`}
-      aria-hidden={interactive ? undefined : 'true'}
+      aria-hidden={interactive ? undefined : "true"}
     >
       <iframe
         src={route.mapEmbedUrl}

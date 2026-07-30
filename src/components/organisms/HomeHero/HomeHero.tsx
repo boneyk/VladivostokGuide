@@ -1,32 +1,39 @@
-import { categories } from '../../../data/categories';
-import { attractions, readyCount } from '../../../data/attractions';
-import { scrollToSection } from '../../../utils/scrollToSection';
-import './HomeHero.css';
+import { categories } from "../../../data/categories";
+import { attractions, readyCount } from "../../../data/attractions";
+import { scrollToSection } from "../../../utils/scrollToSection";
+import "./HomeHero.css";
+import { routes } from "../../../data/routes";
 
 /** Первый экран главной: описание гида, счётчики и быстрые переходы к разделам. */
 export function HomeHero() {
+  const foodAttractionsCount = attractions.filter(
+    (attraction) => attraction.category === "food",
+  ).length;
+  const attractionsCount = attractions.filter(
+    (attraction) => attraction.category !== "food",
+  ).length;
   return (
     <section className="home-hero">
       <div className="home-hero__content">
-        <p className="home-hero__eyebrow">Личный путеводитель</p>
         <h1 className="home-hero__title">Владивосток в одном гиде</h1>
         <p className="home-hero__text">
-          Мосты, острова, маяки и скалы — всё, ради чего сюда стоит ехать. Выберите место, чтобы
-          узнать маршрут, время, расходы и что взять с собой.
+          Мосты, острова, маяки и скалы — всё, ради чего сюда стоит ехать.
+          Выберите место, чтобы узнать маршрут, время, расходы и что взять с
+          собой.
         </p>
 
         <dl className="home-hero__stats">
           <div className="home-hero__stat">
-            <dt>Мест в маршруте</dt>
-            <dd>{attractions.length}</dd>
+            <dt>Количество маршрутов</dt>
+            <dd>{routes.length}</dd>
           </div>
           <div className="home-hero__stat">
-            <dt>Описано подробно</dt>
-            <dd>{readyCount}</dd>
+            <dt>Точки питания</dt>
+            <dd>{foodAttractionsCount}</dd>
           </div>
           <div className="home-hero__stat">
-            <dt>Разделов</dt>
-            <dd>{categories.length}</dd>
+            <dt>Интерестных мест</dt>
+            <dd>{attractionsCount}</dd>
           </div>
         </dl>
 

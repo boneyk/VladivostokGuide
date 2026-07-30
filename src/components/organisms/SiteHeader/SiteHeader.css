@@ -34,7 +34,6 @@
     height: 40px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: var(--vl-gradient);
     font-size: 1.25rem;
 }
 
@@ -66,8 +65,10 @@
        чтобы он не выпирал за пределы шапки и не ломал вёрстку. */
     min-width: 0;
     overflow-x: auto;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
 }
 
 .site-header__nav::-webkit-scrollbar {

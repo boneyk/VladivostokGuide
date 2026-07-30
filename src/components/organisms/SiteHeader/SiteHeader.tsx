@@ -1,21 +1,21 @@
-import { useState } from 'react';
-import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Drawer } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
-import { categories } from '../../../data/categories';
-import { scrollToSection } from '../../../utils/scrollToSection';
-import './SiteHeader.css';
+import { useState } from "react";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import { Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
+import { categories } from "../../../data/categories";
+import { scrollToSection } from "../../../utils/scrollToSection";
+import "./SiteHeader.css";
 
 type NavItem =
-  | { kind: 'route'; to: string; label: string }
-  | { kind: 'section'; id: string; label: string };
+  | { kind: "route"; to: string; label: string }
+  | { kind: "section"; id: string; label: string };
 
 const NAV_ITEMS: NavItem[] = [
-  { kind: 'route', to: '/', label: 'Все места' },
-  { kind: 'section', id: 'routes', label: 'Маршруты' },
+  { kind: "route", to: "/", label: "Все места" },
+  { kind: "section", id: "routes", label: "Маршруты" },
   ...categories.map(
     (category): NavItem => ({
-      kind: 'section',
+      kind: "section",
       id: category.id,
       label: category.navLabel ?? category.title,
     }),
@@ -33,15 +33,15 @@ export function SiteHeader() {
   /** Разделы живут на главной, поэтому с внутренней страницы сначала уходим на «/». */
   const goToSection = (id: string) => {
     closeDrawer();
-    if (location.pathname === '/') {
+    if (location.pathname === "/") {
       scrollToSection(id);
     } else {
-      navigate('/', { state: { scrollTo: id } });
+      navigate("/", { state: { scrollTo: id } });
     }
   };
 
   const renderItem = (item: NavItem) =>
-    item.kind === 'section' ? (
+    item.kind === "section" ? (
       <button
         key={item.id}
         type="button"
@@ -57,7 +57,7 @@ export function SiteHeader() {
         end
         onClick={closeDrawer}
         className={({ isActive }) =>
-          `site-header__link${isActive ? ' site-header__link--active' : ''}`
+          `site-header__link${isActive ? " site-header__link--active" : ""}`
         }
       >
         {item.label}
@@ -69,11 +69,13 @@ export function SiteHeader() {
       <div className="site-header__inner">
         <Link to="/" className="site-header__brand" onClick={closeDrawer}>
           <span className="site-header__mark" aria-hidden="true">
-            🌊
+            <img src="src/assets/photos/logo.png" alt="Логотип" />
           </span>
           <span className="site-header__brand-text">
             <span className="site-header__title">Гид по Владивостоку</span>
-            <span className="site-header__subtitle">Маршруты, места и советы</span>
+            <span className="site-header__subtitle">
+              Маршруты, места и советы
+            </span>
           </span>
         </Link>
 
@@ -91,8 +93,17 @@ export function SiteHeader() {
         </button>
       </div>
 
-      <Drawer title="Навигация" placement="right" open={open} onClose={closeDrawer} width={272}>
-        <nav className="site-header__drawer-nav" aria-label="Мобильная навигация">
+      <Drawer
+        title="Навигация"
+        placement="right"
+        open={open}
+        onClose={closeDrawer}
+        width={272}
+      >
+        <nav
+          className="site-header__drawer-nav"
+          aria-label="Мобильная навигация"
+        >
           {NAV_ITEMS.map(renderItem)}
         </nav>
       </Drawer>

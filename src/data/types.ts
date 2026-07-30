@@ -6,7 +6,14 @@
  * достаточно создать файл в `src/data/attractions` и не трогать компоненты.
  */
 
-export type CategoryId = 'viewpoints' | 'sea' | 'history' | 'science' | 'nature' | 'leisure' | 'food';
+export type CategoryId =
+  | "viewpoints"
+  | "sea"
+  | "history"
+  | "science"
+  | "nature"
+  | "leisure"
+  | "food";
 
 export type Category = {
   id: CategoryId;
@@ -18,7 +25,7 @@ export type Category = {
 };
 
 /** Готова ли страница места: влияет на бейдж в карточке. */
-export type AttractionStatus = 'ready' | 'draft' | 'planned';
+export type AttractionStatus = "ready" | "draft" | "planned";
 
 /** Строка блока «Кратко о месте». */
 export type QuickFact = {
@@ -35,12 +42,12 @@ export type ImageItem = {
 };
 
 export type Block =
-  | { kind: 'paragraph'; text: string }
-  | { kind: 'lead'; text: string }
-  | { kind: 'list'; items: string[]; ordered?: boolean }
-  | { kind: 'callout'; icon?: string; title?: string; text: string }
-  | { kind: 'steps'; items: { title: string; text: string }[] }
-  | { kind: 'gallery'; images: ImageItem[] };
+  | { kind: "paragraph"; text: string }
+  | { kind: "lead"; text: string }
+  | { kind: "list"; items: string[]; ordered?: boolean }
+  | { kind: "callout"; icon?: string; title?: string; text: string }
+  | { kind: "steps"; items: { title: string; text: string }[] }
+  | { kind: "gallery"; images: ImageItem[] };
 
 export type Section = {
   id: string;
@@ -100,6 +107,7 @@ export type Route = {
    * затем скопировать значение `src` из тега <iframe> в коде для вставки.
    */
   mapEmbedUrl?: string;
+  mapImgUrl?: string;
   quickFacts?: QuickFact[];
   links?: ExternalLink[];
   sections: Section[];
